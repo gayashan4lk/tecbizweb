@@ -1,89 +1,713 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>TecBiz Solutions</title>
+        <meta name="description" content="TecBiz Solutions">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/10.3.1/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/10.3.1/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/10.3.1/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/10.3.1/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/10.3.1/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/10.3.1/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/10.3.1/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/10.3.1/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/10.3.1/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/10.3.1/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+        <!--Google fonts links-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="assets/css/plugins.css" />
+        <link rel="stylesheet" href="assets/css/roboto-webfont.css" />
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+         <!-- update the version number as needed -->
+        <script defer src="/__/firebase/10.3.1/firebase-app-compat.js"></script>
+        <!-- include only the Firebase features as you need -->
+        <script defer src="/__/firebase/10.3.1/firebase-auth-compat.js"></script>
+        <script defer src="/__/firebase/10.3.1/firebase-database-compat.js"></script>
+        <script defer src="/__/firebase/10.3.1/firebase-firestore-compat.js"></script>
+        <script defer src="/__/firebase/10.3.1/firebase-functions-compat.js"></script>
+        <script defer src="/__/firebase/10.3.1/firebase-messaging-compat.js"></script>
+        <script defer src="/__/firebase/10.3.1/firebase-storage-compat.js"></script>
+        <script defer src="/__/firebase/10.3.1/firebase-analytics-compat.js"></script>
+        <script defer src="/__/firebase/10.3.1/firebase-remote-config-compat.js"></script>
+        <script defer src="/__/firebase/10.3.1/firebase-performance-compat.js"></script>
+        <!-- 
+          initialize the SDK after all desired features are loaded, set useEmulator to false
+          to avoid connecting the SDK to running emulators.
+        -->
+        <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Sections -->
+        <section id="social" class="social">
+            <div class="container">
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="social-wrapper">
+                        <div class="col-md-6">
+                            <div class="social-icon">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="social-contact">
+                                <a href="#"><i class="fa fa-phone"></i>+9471-4411600</a>
+                                <a href="mailto:chan4lk@gmail.com"><i class="fa fa-envelope"></i>chan4lk@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- /container -->       
+        </section>
+
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="Logo" /></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#features">PRODUCT</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#price">PRICE</a></li>
+                        <li><a href="#business">Business</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <!--Home page style-->
+        <header id="home" class="home">
+            <div class="overlay-fluid-block">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="home-wrapper">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="home-content">
+
+                                    <h1>Tecbiz Solutions - Tech that powers Business</h1>
+                                    <p>TecBiz can transform your business into next-gen disruptive solution with maximum demand.</p>
+
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                                            <div class="home-contact">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" placeholder="Enter your email address">
+                                                    <input type="submit" class="form-control" value="Use It Free">
+
+                                                </div><!-- /input-group -->
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>			
+            </div>
+        </header>
+
+        <!-- Sections -->
+        <section id="features" class="features sections">
+            <div class="container">
+                <div class="row">
+                    <div class="main_features_content2">
+
+                        <div class="col-sm-6">
+                            <div class="single_features_left text-center">
+                                <img src="assets/images/feature-2.jpg" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 margin-top-60">
+                            <div class="single_features_right ">
+                                <h2>Web Development</h2>
+                                <p>We design, architect and develop your website within minimum time. Also we provide customer support 24x7.</p>
+                                <ul>
+                                    <li>Greate User experience.</li>
+                                    <li>High quality and reliable service.</li>
+                                    <li>Simple and eligent solutions.</li>
+                                </ul>
+                                <div class="features_buttom">
+                                    <a href="" class="btn btn-default">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section><!--End of Features 2 Section -->
+        <section id="features" class="features sections">
+            <div class="container">
+                <div class="row">
+                    <div class="main_features_content2">
+
+
+
+                        <div class="col-sm-6 margin-top-60">
+                            <div class="single_features_right ">
+                                <h2>PRODUCT DESCRIPTIONS</h2>
+                                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+                                <ul>
+                                    <li>Quisque volutpat mattis eros.</li>
+                                    <li>Nullam malesuada erat ut turpis.</li>
+                                    <li>Suspendisse urna nibh.</li>
+                                </ul>
+                                <div class="features_buttom">
+                                    <a href="" class="btn btn-default">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="single_features_left text-center">
+                                <img src="assets/images/feature-1.jpg" alt="" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section><!--End of Features 2 Section -->
+
+
+        <section id="service" class="service2 sections lightbg">
+            <div class="container">
+                <div class="row">
+                    <div class="main_service2">
+                        <div class="head_title text-center">
+                            <h2>SERVICES WE PROVIDE</h2>
+                            <p>condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+                        </div>
+
+                        <div class="service_content">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single_service2">
+                                    <div class="single_service_left">
+                                        <img src="assets/images/flaticon1.png" alt="" />
+                                    </div>
+                                    <div class="single_service_right">
+                                        <h2>Branding</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single_service2">
+                                    <div class="single_service_left">
+                                        <img src="assets/images/flaticon2.png" alt="" />
+                                    </div>
+                                    <div class="single_service_right">
+                                        <h2>Branding</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single_service2">
+                                    <div class="single_service_left">
+                                        <img src="assets/images/flaticon3.png" alt="" />
+                                    </div>
+                                    <div class="single_service_right">
+                                        <h2>Branding</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single_service2">
+                                    <div class="single_service_left">
+                                        <img src="assets/images/flaticon4.png" alt="" />
+                                    </div>
+                                    <div class="single_service_right">
+                                        <h2>Branding</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End of Service2 Section -->		
+
+
+
+        <!-- Sections -->
+        <section id="price" class="price sections">
+
+
+            <div class="head_title text-center">
+                <h1>Affordable Services Package</h1>
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+            </div>
+            <!-- Example row of columns -->
+            <div class="cd-pricing-container cd-has-margins">
+                <div class="cd-pricing-switcher">
+                    <p class="fieldset">
+                        <input type="radio" name="duration-2" value="monthly" id="monthly-2" checked>
+                        <label for="monthly-2">Business</label>
+                        <input type="radio" name="duration-2" value="yearly" id="yearly-2">
+                        <label for="yearly-2">Community</label>
+                        <span class="cd-switch"></span>
+                    </p>
+                </div> <!-- .cd-pricing-switcher -->
+
+                <ul class="cd-pricing-list cd-bounce-invert">
+                    <li>
+                        <ul class="cd-pricing-wrapper">
+                            <li data-type="monthly" class="is-visible">
+                                <header class="cd-pricing-header">
+                                    <h2>Basic</h2>
+
+                                    <div class="cd-price">
+                                        <span class="cd-currency">$</span>
+                                        <span class="cd-value">30</span>
+                                        <span class="cd-duration">mo</span>
+                                    </div>
+                                </header> <!-- .cd-pricing-header -->
+
+                                <div class="cd-pricing-body">
+                                    <ul class="cd-pricing-features">
+                                        <li><em><i class="fa fa-check-circle"></i></em>20 Keyword</li>
+                                        <li><em><i class="fa fa-remove"></i></em>No Time Tracking</li>
+                                        <li><em><i class="fa fa-remove"></i></em>230 - Man Hour</li>
+                                        <li><em><i class="fa fa-check-circle"></i></em>News Letter Available</li>
+
+                                    </ul>
+                                </div> <!-- .cd-pricing-body -->
+
+                                <footer class="cd-pricing-footer">
+                                    <a class="cd-select" href="#">Purchase</a>
+                                </footer>  <!-- .cd-pricing-footer -->
+                            </li>
+
+                            <li data-type="yearly" class="is-hidden">
+                                <header class="cd-pricing-header">
+                                    <h2>Basic</h2>
+
+                                    <div class="cd-price">
+                                        <span class="cd-currency">$</span>
+                                        <span class="cd-value">320</span>
+                                        <span class="cd-duration">yr</span>
+                                    </div>
+                                </header> <!-- .cd-pricing-header -->
+
+                                <div class="cd-pricing-body">
+                                    <ul class="cd-pricing-features">
+                                        <li><em><i class="fa fa-check-circle"></i></em>20 Keyword</li>
+                                        <li><em><i class="fa fa-remove"></i></em>No Time Tracking</li>
+                                        <li><em><i class="fa fa-remove"></i></em>230 - Man Hour</li>
+                                        <li><em><i class="fa fa-check-circle"></i></em>News Letter Available</li>
+
+                                    </ul>
+                                </div> <!-- .cd-pricing-body -->
+
+                                <footer class="cd-pricing-footer">
+                                    <a class="cd-select" href="#">Purchase</a>
+                                </footer>  <!-- .cd-pricing-footer -->
+                            </li>
+                        </ul> <!-- .cd-pricing-wrapper -->
+                    </li>
+
+                    <li class="cd-popular">
+                        <ul class="cd-pricing-wrapper">
+                            <li data-type="monthly" class="is-visible">
+                                <header class="cd-pricing-header">
+                                    <h2>Popular</h2>
+                                    <div class="cd-price">
+                                        <span class="cd-currency">$</span>
+                                        <span class="cd-value">60</span>
+                                        <span class="cd-duration">mo</span>
+                                    </div>
+                                </header> <!-- .cd-pricing-header -->
+
+                                <div class="cd-pricing-body">
+                                    <ul class="cd-pricing-features">
+                                        <li><em><i class="fa fa-check-circle"></i></em>20 Keyword</li>
+                                        <li><em><i class="fa fa-remove"></i></em>No Time Tracking</li>
+                                        <li><em><i class="fa fa-remove"></i></em>230 - Man Hour</li>
+                                        <li><em><i class="fa fa-check-circle"></i></em>News Letter Available</li>
+
+                                    </ul>
+                                </div> <!-- .cd-pricing-body -->
+
+                                <footer class="cd-pricing-footer">
+                                    <a class="cd-select" href="#">Purchase</a>
+                                </footer>  <!-- .cd-pricing-footer -->
+                            </li>
+
+                            <li data-type="yearly" class="is-hidden">
+                                <header class="cd-pricing-header">
+                                    <h2>Popular</h2>
+
+                                    <div class="cd-price">
+                                        <span class="cd-currency">$</span>
+                                        <span class="cd-value">630</span>
+                                        <span class="cd-duration">yr</span>
+                                    </div>
+                                </header> <!-- .cd-pricing-header -->
+
+                                <div class="cd-pricing-body">
+                                    <ul class="cd-pricing-features">
+                                        <li><em><i class="fa fa-check-circle"></i></em>20 Keyword</li>
+                                        <li><em><i class="fa fa-remove"></i></em>No Time Tracking</li>
+                                        <li><em><i class="fa fa-remove"></i></em>230 - Man Hour</li>
+                                        <li><em><i class="fa fa-check-circle"></i></em>News Letter Available</li>
+
+                                    </ul>
+                                </div> <!-- .cd-pricing-body -->
+
+                                <footer class="cd-pricing-footer">
+                                    <a class="cd-select" href="#">Purchase</a>
+                                </footer>  <!-- .cd-pricing-footer -->
+                            </li>
+                        </ul> <!-- .cd-pricing-wrapper -->
+                    </li>
+
+                    <li>
+                        <ul class="cd-pricing-wrapper">
+                            <li data-type="monthly" class="is-visible">
+                                <header class="cd-pricing-header">
+                                    <h2>Premier</h2>
+
+                                    <div class="cd-price">
+                                        <span class="cd-currency">$</span>
+                                        <span class="cd-value">90</span>
+                                        <span class="cd-duration">mo</span>
+                                    </div>
+                                </header> <!-- .cd-pricing-header -->
+
+                                <div class="cd-pricing-body">
+                                    <ul class="cd-pricing-features">
+                                        <li><em><i class="fa fa-check-circle"></i></em>20 Keyword</li>
+                                        <li><em><i class="fa fa-remove"></i></em>No Time Tracking</li>
+                                        <li><em><i class="fa fa-remove"></i></em>230 - Man Hour</li>
+                                        <li><em><i class="fa fa-check-circle"></i></em>News Letter Available</li>
+
+                                    </ul>
+                                </div> <!-- .cd-pricing-body -->
+
+                                <footer class="cd-pricing-footer">
+                                    <a class="cd-select" href="#">Purchase</a>
+                                </footer>  <!-- .cd-pricing-footer -->
+                            </li>
+
+                            <li data-type="yearly" class="is-hidden">
+                                <header class="cd-pricing-header">
+                                    <h2>Premier</h2>
+
+                                    <div class="cd-price">
+                                        <span class="cd-currency">$</span>
+                                        <span class="cd-value">950</span>
+                                        <span class="cd-duration">yr</span>
+                                    </div>
+                                </header> <!-- .cd-pricing-header -->
+
+                                <div class="cd-pricing-body">
+                                    <ul class="cd-pricing-features">
+                                        <li><em><i class="fa fa-check-circle"></i></em>20 Keyword</li>
+                                        <li><em><i class="fa fa-remove"></i></em>No Time Tracking</li>
+                                        <li><em><i class="fa fa-remove"></i></em>230 - Man Hour</li>
+                                        <li><em><i class="fa fa-check-circle"></i></em>News Letter Available</li>
+
+                                    </ul>
+                                </div> <!-- .cd-pricing-body -->
+
+                                <footer class="cd-pricing-footer">
+                                    <a class="cd-select" href="#">Purchase</a>
+                                </footer>  <!-- .cd-pricing-footer -->
+                            </li>
+                        </ul> <!-- .cd-pricing-wrapper -->
+                    </li>
+                </ul> <!-- .cd-pricing-list -->
+            </div> <!-- .cd-pricing-container -->	
+
+        </section>
+
+        <!-- Sections -->
+        <section id="business" class="portfolio sections">
+            <div class="container">
+                <div class="head_title text-center">
+                    <h1>Our Business Analytics Platform</h1>
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+                </div>
+
+                <div class="row">
+                    <div class="portfolio-wrapper text-center">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-book"></i>
+                                <div class="separator"></div>
+                                <h4>Community Edition</h4>
+                                <p>Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-bug"></i>
+                                <div class="separator"></div>
+                                <h4>Community Edition</h4>
+                                <p>Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-gears"></i>
+                                <div class="separator"></div>
+                                <h4>Community Edition</h4>
+                                <p>Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-external-link"></i>
+                                <div class="separator"></div>
+                                <h4>Community Edition</h4>
+                                <p>Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="portfolio-wrapper2 text-center">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-coffee"></i>
+                                <div class="separator"></div>
+                                <h4>Community Edition</h4>
+                                <p>Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-tree"></i>
+                                <div class="separator"></div>
+                                <h4>Community Edition</h4>
+                                <p>Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-paper-plane-o"></i>
+                                <div class="separator"></div>
+                                <h4>Community Edition</h4>
+                                <p>Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="community-edition">
+                                <i class="fa fa-folder-open"></i>
+                                <div class="separator"></div>
+                                <h4>Community Edition</h4>
+                                <p>Visually explore your data through a free-form drag-and-drop canvas, a broad range of modern data visualizations, and an easy-to-use report authoring experience.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div> <!-- /container -->       
+        </section>
+
+
+        <section id="contact" class="contact sections">
+            <div class="container">
+                <div class="row">
+                    <div class="main_contact whitebackground">
+                        <div class="head_title text-center">
+                            <h2>GET IN TOUCH</h2>
+                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+                        </div>
+                        <div class="contact_content">
+                            <div class="col-md-6">
+                                <div class="single_left_contact">
+                                    <form action="#" id="formid">
+
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" placeholder="first name" required="">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="message" rows="8" placeholder="Message"></textarea>
+                                        </div>
+
+                                        <div class="center-content">
+                                            <input type="submit" value="Submit" class="btn btn-default">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="single_right_contact">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+
+                                    <div class="contact_address margin-top-40">
+                                        <span>1600 Pennsylvania Ave NW, Washington,</span>
+                                        <span>DC 20500, United States of America.</span> 
+                                        <span class="margin-top-20">T: (202) 456-1111</span> 
+                                        <span>M: (202) 456-1212</span> 
+                                    </div>
+
+                                    <div class="contact_socail_bookmark">
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-google"></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End of Contact Section -->
+
+
+        <section id="footer-menu" class="sections footer-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-menu-wrapper">
+
+                        <div class="col-md-8 col-sm-12 col-xs-12">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5>Quick Links</h5>
+                                    <ul>
+                                        <li>POWER BI DESKTOP</li>
+                                        <li>MOBILE</li>
+                                        <li>SEE ALL DOWNLOADS</li>
+                                        <li>POWER BI DESKTOP</li>
+                                        <li>MOBILE</li>
+                                        <li>SEE ALL DOWNLOADS</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5>Legal</h5>
+                                    <ul>
+                                        <li>PRIVACY & COOKIES</li>
+                                        <li>TERMS OF USE</li>
+                                        <li>TRADEMARKS</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5>Information</h5>
+                                    <ul>
+                                        <li>SUPPORT</li>
+                                        <li>DEVELOPERS</li>
+                                        <li>BLOG</li>
+                                        <li>NEWSLETTER</li>
+                                        <li>PYRAMID ANALYTICS</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="menu-item">
+                                <h5>Newsletter</h5>
+                                <p>Insights await in your company's data. Bring them into focus with BlueLance.</p>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Enter your email address">
+                                    <input type="submit" class="form-control" value="Use It Free">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Footer-->
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-wrapper">
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-brand">
+                                <img src="assets/images/logo.png" alt="logo" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="copyright">
+                                <p>Made with <i class="fa fa-heart"></i> by <a target="_blank" href="#"> Tecbiz solutions </a>2022. All rights reserved.</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="scrollup">
+            <a href="#"><i class="fa fa-chevron-up"></i></a>
+        </div>
+
+
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/modernizr.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
