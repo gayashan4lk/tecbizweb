@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "nx run tecbiz-web:build",
+    "build:web": "nx run tecbiz-web:build",
+    "build:text": "nx run text-polish:build",
+    "build": "npm run build:web && npm run build:text",
     "nx": "nx",
     "start": "nx run tecbiz-web:serve"
   },

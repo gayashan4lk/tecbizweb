@@ -30,6 +30,15 @@
         "**/.*",
         "**/node_modules/**"
       ]
+    },
+    {
+      "site": "text-polish",
+      "public": "web/dist/apps/text-polish/.next",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
     }
   ],
   "storage": {
