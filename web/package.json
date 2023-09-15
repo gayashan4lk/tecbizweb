@@ -7,7 +7,8 @@
     "build:text": "nx run text-polish:build",
     "build": "npm run build:web && npm run build:text",
     "nx": "nx",
-    "start": "nx run tecbiz-web:serve"
+    "start": "nx run tecbiz-web:serve",
+    "start:tp": "nx run text-polish:serve"
   },
   "private": true,
   "dependencies": {
