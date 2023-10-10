@@ -5,8 +5,8 @@ import { faTwitter, faFacebook, faInstagram, faTelegram, faLinkedin } from '@for
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-gray-900 py-4">
-      <div className="container mx-auto flex justify-between items-center">
+    <header className="bg-gray-900 py-4 mb-4"> {/* Added margin to the top and bottom */}
+    <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-white text-3xl md:text-4xl font-semibold">TechBizSolution</h1> {/* Increased font size */}
         <nav className="hidden md:flex space-x-6">
           <a href="/Home" className="text-white hover:text-blue-500 transition duration-300 text-lg">Home</a> {/* Increased font size */}
