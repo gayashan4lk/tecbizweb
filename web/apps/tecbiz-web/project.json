@@ -9,7 +9,8 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "outputPath": "dist/apps/tecbiz-web"
+        "outputPath": "dist/apps/tecbiz-web",
+        "postcssConfig": "postcss.config.js"
       },
       "configurations": {
         "development": {
