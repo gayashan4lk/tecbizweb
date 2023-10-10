@@ -11,14 +11,12 @@ function App() {
     setShowInsertOptions(!showInsertOptions);
   };
 
-  // Function to handle moving to the next image
   const moveToNextImage = () => {
     if (currentImageIndex < images.length - 1) {
       setCurrentImageIndex(currentImageIndex + 1);
     }
   };
 
-  // Function to handle moving to the previous image
   const moveToPreviousImage = () => {
     if (currentImageIndex > 0) {
       setCurrentImageIndex(currentImageIndex - 1);
@@ -31,9 +29,7 @@ function App() {
         <TPComponent />
       </div>
       <div className='choose'>
-        <button className="Cbutton insert" onClick={toggleInsertOptions}>
-          Insert
-        </button>
+        <button className="Cbutton insert" onClick={toggleInsertOptions}>Insert</button>
         <button className="Cbutton edit">Edit</button>
       </div>
       {showInsertOptions && (
@@ -50,21 +46,21 @@ function App() {
         </div>
       )}
       <div className="Ucontainer">
-        <button className="previous-button" onClick={moveToPreviousImage}>
-          Previous
-        </button>
         <canvas id="imageCanvas" className='canvasS'>
-          {}
+          { }
         </canvas>
-        <button className="next-button" onClick={moveToNextImage}>
-          Next
-        </button>
+        <p className="buttonR ">
+          <button className="nextbtn" onClick={moveToPreviousImage}>
+            Previous
+          </button >
+          <button className="nextbtn" onClick={moveToNextImage}>
+            Next
+          </button>
+        </p>
       </div>
     </div>
   );
 }
 
 export default App;
-
-
 
