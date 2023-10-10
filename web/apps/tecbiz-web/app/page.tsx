@@ -8,12 +8,15 @@ import Footer from '../components/Footer';
 
 const HomePage: React.FC = () => {
   return (
-    <>
+    <div>
+      <Header />
       <HeroSection />
       <FeaturesSection />
       <PricingSection />
       <TestimonialsSection />
-    </>
+      <Footer />
+    </div>
+  
   );
 };
 
