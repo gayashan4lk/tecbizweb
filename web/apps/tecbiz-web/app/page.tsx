@@ -2,9 +2,12 @@ import React from 'react';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import FeaturesSection from '../components/FeaturesSection';
-import PricingSection from '../components/PricingSection';
-import TestimonialsSection from '../components/TestimonialsSection';
+import VissionMission from '../components/VissionMission';
+import Founders from '../components/Founders';
+import Team from '../components/Team';
+
 import Footer from '../components/Footer';
+
 
 const HomePage: React.FC = () => {
   return (
@@ -12,8 +15,9 @@ const HomePage: React.FC = () => {
       <Header />
       <HeroSection />
       <FeaturesSection />
-      <PricingSection />
-      <TestimonialsSection />
+      <VissionMission />
+      <Founders />
+      <Team/>
       <Footer />
     </div>
   
