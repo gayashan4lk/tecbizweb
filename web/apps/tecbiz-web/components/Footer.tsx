@@ -1,7 +1,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-
+import {
+  faTwitter,
+  faFacebook,
+  faLinkedin,
+  faTelegram, // Add Telegram icon
+  faInstagram, // Add Instagram icon
+  faYoutube, // Add YouTube icon
+} from '@fortawesome/free-brands-svg-icons';
 const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -43,6 +49,21 @@ const Footer: React.FC = () => {
               <li>
                 <a href="#" className="text-gray-400 hover:text-white transition duration-300">
                   <FontAwesomeIcon icon={faLinkedin} className="w-6 h-6 inline" /> LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover-text-white transition duration-300">
+                  <FontAwesomeIcon icon={faTelegram} className="w-6 h-6 inline" /> Telegram
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover-text-white transition duration-300">
+                  <FontAwesomeIcon icon={faInstagram} className="w-6 h-6 inline" /> Instagram
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover-text-white transition duration-300">
+                  <FontAwesomeIcon icon={faYoutube} className="w-6 h-6 inline" /> YouTube
                 </a>
               </li>
             </ul>

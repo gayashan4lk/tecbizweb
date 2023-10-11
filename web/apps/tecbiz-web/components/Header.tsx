@@ -1,8 +1,14 @@
 import React from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faFacebook, faInstagram, faTelegram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-
+import {
+  faTwitter,
+  faFacebook,
+  faLinkedin,
+  faTelegram, // Add Telegram icon
+  faInstagram, // Add Instagram icon
+  faYoutube, // Add YouTube icon
+} from '@fortawesome/free-brands-svg-icons';
 const Header: React.FC = () => {
   return (
     <header className="bg-gray-900 py-4 mb-4"> {/* Added margin to the top and bottom */}
@@ -63,10 +69,12 @@ const Header: React.FC = () => {
           <a href="#" className="text-white hover:text-blue-500 transition duration-300">
             <FontAwesomeIcon icon={faLinkedin} className="w-8 h-8" /> {/* Adjusted icon size */}
           </a>
+          <a href="#" className="text-white hover:text-blue-500 transition duration-300">
+            <FontAwesomeIcon icon={faYoutube} className="w-8 h-8" /> {/* Adjusted icon size */}
+          </a>
         </div>
       </div>
     </header>
   );
 };
-
 export default Header;

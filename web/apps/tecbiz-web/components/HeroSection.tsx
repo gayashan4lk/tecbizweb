@@ -4,6 +4,7 @@ const HeroSection: React.FC = () => {
   return (
     <section className="bg-hero-pattern bg-cover bg-center py-32 text-center text-black">
       <div className="container mx-auto">
+        
         <h1 className="text-4xl md:text-6xl font-semibold mb-4 text-blue-800">
           Empowering Individuals & Achieve Excellence Through Professional Opportunities And AI Innovation.
         </h1>
@@ -17,6 +18,7 @@ const HeroSection: React.FC = () => {
           Get Started
         </button>
       </div>
+      
     </section>
   );
 };

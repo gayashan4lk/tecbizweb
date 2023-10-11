@@ -11,6 +11,7 @@ import Footer from '../components/Footer';
 
 const HomePage: React.FC = () => {
   return (
+    <div className="bg-white dark:bg-gray-800">
     <div>
       <Header />
       <HeroSection />
@@ -19,6 +20,7 @@ const HomePage: React.FC = () => {
       <Founders />
       <Team/>
       <Footer />
+    </div>
     </div>
   
   );
