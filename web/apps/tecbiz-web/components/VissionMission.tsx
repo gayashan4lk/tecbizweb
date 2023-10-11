@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TestimonialsSection: React.FC = () => {
+const VissionMission: React.FC = () => {
   return (
     <section className="py-12">
       <div className="container mx-auto">
@@ -24,4 +24,4 @@ const TestimonialsSection: React.FC = () => {
   );
 };
 
-export default TestimonialsSection;
+export default VissionMission;
