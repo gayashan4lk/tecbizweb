@@ -9,13 +9,13 @@ import {
 
 const Founders: React.FC = () => {
   return (
-    <section className="py-12 bg-gray-200">
+    <section className="py-12 bg-black">
       <div className="container mx-auto">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-8">TecBIZ FOUNDERS</h2>
+        <h2 className="text-3xl md:text-5xl text-blue-200 font-bold text-center mb-8">TecBIZ FOUNDERS</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div className="p-6 bg-white rounded-lg shadow-md hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
+        <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
             <h2 className="text-3xl md:text-3xl font-semibold text-center mb-8">
-              <u className="font-bold">Chandima Ranaweera</u>
+              <u className="font-bold text-blue-500">Chandima Ranaweera</u>
             </h2>
 
             <h1 className="text-xl md:text-1xl font-semibold text-center mb-8">
@@ -23,31 +23,31 @@ const Founders: React.FC = () => {
             </h1>
             <div className="flex justify-center mt-8">
             <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://www.facebook.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://www.facebook.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://www.linkedin.com/in/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://www.linkedin.com/in/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://twitter.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://twitter.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full">
-                <a href="https://github.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://github.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
               </div>
             </div>
           </div>
 
-          <div className="p-6 bg-white rounded-lg shadow-md hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
+          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
             <h2 className="text-3xl md:text-3xl font-semibold text-center mb-8">
-              <u className="font-bold">Nadeera Kodithuwakku</u>
+              <u className="font-bold text-blue-500">Nadeera Kodithuwakku</u>
             </h2>
 
             <h1 className="text-xl md:text-1xl font-semibold text-center mb-8">
@@ -55,22 +55,22 @@ const Founders: React.FC = () => {
             </h1>
             <div className="flex justify-center mt-8">
             <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://www.facebook.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://www.facebook.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://www.linkedin.com/in/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://www.linkedin.com/in/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://twitter.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://twitter.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full">
-                <a href="https://github.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://github.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
               </div>

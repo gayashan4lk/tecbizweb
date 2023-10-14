@@ -9,12 +9,12 @@ import {
 
 const Team: React.FC = () => {
   return (
-    <section className="py-12 bg-gray-200">
+    <section className="py-12 bg-black">
 s      <div className="container mx-auto">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-8">Dedicated Development Team</h2>
+        <h2 className="text-3xl md:text-5xl text-blue-200 font-bold text-center mb-8">Dedicated Development Team</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div className="p-6 bg-white rounded-lg shadow-md hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
+        <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
         <h2 className="text-3xl md:text-3xl font-semibold text-center mb-8">
               <u className="font-bold">Thilan</u>
             </h2>
@@ -24,29 +24,29 @@ s      <div className="container mx-auto">
 
             <div className="flex justify-center">
             <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://www.facebook.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://www.facebook.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://www.linkedin.com/in/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://www.linkedin.com/in/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://twitter.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://twitter.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full">
-                <a href="https://github.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://github.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
               </div>
             </div>
           </div>
 
-          <div className="p-6 bg-white rounded-lg shadow-md hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
+          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
           <h2 className="text-3xl md:text-3xl font-semibold text-center mb-8">
               <u className="font-bold">Narada</u>
             </h2>
@@ -57,29 +57,30 @@ s      <div className="container mx-auto">
 
             <div className="flex justify-center">
             <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://www.facebook.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://www.facebook.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://www.linkedin.com/in/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://www.linkedin.com/in/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://twitter.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://twitter.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full">
-                <a href="https://github.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://github.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
               </div>
+              
             </div>
           </div>
 
-          <div className="p-6 bg-white rounded-lg shadow-md hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
+          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
           <h2 className="text-3xl md:text-3xl font-semibold text-center mb-8">
               <u className="font-bold">Chathura</u>
             </h2>
@@ -89,29 +90,29 @@ s      <div className="container mx-auto">
 
             <div className="flex justify-center">
             <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://www.facebook.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://www.facebook.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://www.linkedin.com/in/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://www.linkedin.com/in/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://twitter.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://twitter.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full">
-                <a href="https://github.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://github.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
               </div>
             </div>
           </div>
 
-          <div className="p-6 bg-white rounded-lg shadow-md hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
+          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
           <h2 className="text-3xl md:text-3xl font-semibold text-center mb-8">
               <u className="font-bold">Mithuna</u>
             </h2>
@@ -122,22 +123,22 @@ s      <div className="container mx-auto">
 
             <div className="flex justify-center">
             <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://www.facebook.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://www.facebook.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://www.linkedin.com/in/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://www.linkedin.com/in/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://twitter.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://twitter.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full">
-                <a href="https://github.com/thilan" className="text-blue-500 hover:text-blue-700">
+                <a href="https://github.com/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
               </div>
