@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '@fortawesome/fontawesome-svg-core/styles.css';
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -14,7 +16,7 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+}ss
 
 body {
   color: rgb(var(--foreground-rgb));
