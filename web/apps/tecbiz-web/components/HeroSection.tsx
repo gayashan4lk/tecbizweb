@@ -2,23 +2,21 @@ import React from 'react';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="bg-hero-pattern bg-cover bg-center py-32 text-center text-black">
+    <section className="bg-hero-pattern bg-gray-200 bg-cover bg-center py-16 md:py-24 lg:py-32 text-center text-black">
       <div className="container mx-auto">
-        
-        <h1 className="text-4xl md:text-6xl font-semibold mb-4 text-blue-800">
+        <h1 className="text-2xl md:text-4xl lg:text-6xl font-semibold mb-4 text-blue-800 hover:text-blue-500 transition duration-300">
           Empowering Individuals & Achieve Excellence Through Professional Opportunities And AI Innovation.
         </h1>
-        <h2 className="text-3xl md:text-5xl font-semibold mb-4">
+        <h2 className="text-xl md:text-3xl lg:text-5xl font-semibold mb-4 hover:text-blue-500 transition duration-300">
           Your Solution for Tech Needs
         </h2>
-        <p className="text-lg md:text-xl mb-8">
+        <p className="text-base md:text-lg lg:text-xl mb-8 hover:text-gray-700 transition duration-300">
           We provide innovative tech solutions for your business.
         </p>
-        <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full text-lg transition duration-300">
+        <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 md:px-6 lg:px-8 py-2 md:py-3 lg:py-4 rounded-full text-lg lg:text-xl transition duration-300 hover:text-white hover:shadow-md">
           Get Started
         </button>
       </div>
-      
     </section>
   );
 };
