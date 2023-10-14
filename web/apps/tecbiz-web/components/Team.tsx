@@ -20,7 +20,7 @@ const Team: React.FC = () => {
             </h2>
 
             <p className="text-xl md:text-1xl mb-4">
-              Thilan's extensive knowledge of emerging technologies keeps us on the cutting edge. His ability to adapt to new tools and frameworks allows us to tackle diverse projects with confidence.
+               extensive knowledge of emerging technologies keeps us on the cutting edge. His ability to adapt to new tools and frameworks allows us to tackle diverse projects with confidence.
             </p>
 
             <div className="flex justify-center">
