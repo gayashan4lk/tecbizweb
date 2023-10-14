@@ -44,7 +44,7 @@ const Header: React.FC = () => {
               {/* Add more products*/}
             </ul>
           </div>
-          <a href="/about" className="text-white hover:text-blue-500 transition duration-300">About</a>
+          <a href="/aboutus" className="text-white hover:text-blue-500 transition duration-300">About</a>
           <a href="/contact" className="text-white hover:text-blue-500 transition duration-300">Contact</a>
         </nav>
 
