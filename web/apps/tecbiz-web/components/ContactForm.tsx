@@ -61,3 +61,6 @@ const ContactForm: React.FC = () => {
 };
 
 export default ContactForm;
+*/
+const ContactForm = () => ({})
+export default ContactForm;

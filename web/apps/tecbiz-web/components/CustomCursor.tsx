@@ -28,3 +28,6 @@ const CustomCursor = () => {
 };
 
 export default CustomCursor;
+*/
+const ContactForm = () => ({})
+export default ContactForm;
