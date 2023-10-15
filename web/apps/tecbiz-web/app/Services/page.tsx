@@ -1,11 +1,8 @@
 import React from 'react';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
 
 const ServicesPage: React.FC = () => {
   return (
     <div>
-      <Header />
       <div>
         <h1>Our Services</h1>
         <ul>
@@ -14,7 +11,6 @@ const ServicesPage: React.FC = () => {
           <li>Service 3</li>
         </ul>
       </div>
-      <Footer />
     </div>
   );
 };
