@@ -1,0 +1,29 @@
+.w-4 {
+    width: 1rem;
+  }
+  .h-4 {
+    height: 1rem;
+  }
+  .bg-black {
+    background-color: #000;
+  }
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  .absolute {
+    position: absolute;
+  }
+  .pointer-events-none {
+    pointer-events: none;
+  }
+  .transform {
+    --tw-translate-x: var(--tw-transform);
+    --tw-translate-y: var(--tw-transform);
+  }
+  .-translate-x-2 {
+    --tw-translate-x: -0.5rem;
+  }
+  .-translate-y-2 {
+    --tw-translate-y: -0.5rem;
+  }
+  

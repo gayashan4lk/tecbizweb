@@ -1,8 +1,7 @@
-// components/Layout.tsx
 import React from 'react';
 import Navbar from '../components/Navbar';
 
-const Layout: React.FC = ({ children }) => {
+const Layout: React.FC<React.PropsWithChildren> = ({ children }) => {
   return (
     <div>
       <Navbar />
