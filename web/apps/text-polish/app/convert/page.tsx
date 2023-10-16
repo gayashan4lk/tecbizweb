@@ -29,9 +29,9 @@ return (
     <div>
       <TPComponent/>
         <div>
-          <h1 className="txtgen">TEXT GENERATOR</h1>
+          <h1 className="text-center text-white text-5xl">TEXT GENERATOR</h1>
         </div>
-      <div className="container">
+      <div className="flex justify-center">
         <div className="left-side">
           <textarea id="textArea" className="textarea"></textarea>  
         </div>
@@ -39,8 +39,8 @@ return (
           <canvas id="myCanvas" className="canvasS"></canvas> 
         </div>
       </div>
-      <p className="buttonR">
-        <button className="button" onClick={getText}>Generate</button>
+      <p className="text-center">
+        <button className="text-center bg-blue-500 text-white text-lg px-6 py-3 rounded-3xl" onClick={getText}>Generate</button>
       </p>
     </div>
   );

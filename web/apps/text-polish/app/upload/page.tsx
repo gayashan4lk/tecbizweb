@@ -28,20 +28,20 @@ function App() {
       <div>
         <TPComponent />
       </div>
-      <div className='choose'>
-        <button className="Cbutton insert" onClick={toggleInsertOptions}>Insert</button>
-        <button className="Cbutton edit">Edit</button>
+      <div className='bg-gray-800 h-35'>
+        <button className="bg-gray-800 text-white text-base mr-4" onClick={toggleInsertOptions}>Insert</button>
+        <button className="bg-gray-800 text-white text-base">Edit</button>
       </div>
       {showInsertOptions && (
-        <div className="list">
+        <div className="bg-gray-800 w-28">
           <div>
-            <button className='Cbutton'>Word Document</button>
+            <button className='bg-gray-800 text-white text-sm'>Word Document</button>
           </div>
           <div>
-            <button className='Cbutton'>PDF</button>
+            <button className='bg-gray-800 text-white text-sm'>PDF</button>
           </div>
           <div>
-            <button className='Cbutton'>Text</button>
+            <button className='Cbutbg-gray-800 text-white text-sm'>Text</button>
           </div>
         </div>
       )}
@@ -50,10 +50,10 @@ function App() {
           { }
         </canvas>
         <p className="buttonR ">
-          <button className="nextbtn" onClick={moveToPreviousImage}>
+          <button className="cursor-pointer transition duration-300 ease-in-out text-center bg-blue-500 text-white text-lg px-5 py-2 rounded-full" onClick={moveToPreviousImage}>
             Previous
           </button >
-          <button className="nextbtn" onClick={moveToNextImage}>
+          <button className="cursor-pointer transition duration-300 ease-in-out text-center bg-blue-500 text-white text-lg px-5 py-2 rounded-full" onClick={moveToNextImage}>
             Next
           </button>
         </p>
