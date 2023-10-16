@@ -1,18 +1,18 @@
 "use client"
-import React, { useEffect } from "react"; //new line for line 1
+import React, { useEffect } from "react"; 
 import './App.css';
 import TPComponent from "./TPComponent";
 
 
 export default function CanvasTextGenerator() {
-  //useEffect(() => {  //new line
-  function getText() { //new line 2nd round
+ 
+  function getText() { 
   var canvas = document.getElementById("myCanvas") as HTMLCanvasElement;
   const ctx = canvas?.getContext("2d");
   const  textArea = document.getElementById("textArea") as HTMLTextAreaElement;
 
  
-  //function getText() {
+  
     if (ctx && textArea) {
     var text = textArea.value;
 
