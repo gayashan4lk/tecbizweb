@@ -22,7 +22,6 @@ body {
         border-radius: 10px;
     }
 
-
 .Ucontainer{
     padding-left:300px ;
     padding-top:70px ;
@@ -34,47 +33,3 @@ body {
     justify-content: space-evenly; 
         align-items: center;
 }
-
-.downloadbtn {
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    text-align: center;
-    background-color: rgb(61, 210, 63);
-    font-size: 16px;
-    padding: 15px 30px;
-    border: none;
-    color: rgb(255, 255, 255);
-    border-radius: 30px; 
-    
-}
-
-
-
-
-
-
-
-
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group input[type="tel"],
-.form-group select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-
-button[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-
-
-

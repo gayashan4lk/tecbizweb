@@ -7,8 +7,8 @@ function App() {
       <div>
         <TPComponent />
       </div>
-      <div className="max-w-screen-xl mx-auto p-4 rounded-lg bg-gray-800 text-white">
-        <div className="w-96 mx-auto p-5 border border-gray-300 rounded-lg shadow-md">
+      <div className="max-w-screen-xl mx-auto p-10 rounded-lg bg-black text-white flex">
+        <div className="mr-2 w-96 mx-auto p-5 border border-gray-300 rounded-lg shadow-md bg-zinc-900">
           <h2>Card Information</h2>
           <form action="#" method="post">
             <div className="mb-4 flex-1 mr-4">
@@ -27,22 +27,22 @@ function App() {
           </form>
         </div>
 
-        <div className="w-96 mx-auto p-5 border border-gray-300 rounded-lg shadow-md">
+        <div className="mr-2 w-96 mx-auto p-5 border border-gray-300 rounded-lg shadow-md bg-zinc-900">
           <h2>Personal Information</h2>
           <form action="#" method="post">
             <div className="flex justify-between flex-1 mr-4">
             <div className="mb-4 flex-1 mr-4">
-              <label htmlFor="cvv" className="form-label">CVV Number</label>
+              <label htmlFor="firstName" className="form-label">First Name</label>
               <input type="text" id="cvv" name="cvv" className="w-full p-2 border border-gray-300 rounded" placeholder="XXX" required />
             </div>
               <div className="mb-4 flex-1 mr-4">
                 <label htmlFor="lastName">Last Name</label>
-                <input type="text" id="lastName" name="lastName" required />
+                <input className="w-full p-2 border border-gray-300 rounded" type="text" id="lastName" name="lastName"  required />
               </div>
             </div>
             <div className="mb-4 flex-1 mr-4">
               <label htmlFor="country">Country</label>
-              <select id="country" name="country">
+              <select className="w-full p-2 border border-gray-300 rounded" id="country" name="country">
                 <option value="usa">United States</option>
                 <option value="canada">Canada</option>
                 {/* Add more country options here */}
@@ -50,29 +50,29 @@ function App() {
             </div>
             <div className="flex justify-between flex-1 mr-4">
               <div className="mb-4 flex-1 mr-4">
-                <label htmlFor="city">City</label>
-                <input type="text" id="city" name="city" required />
+                <label  htmlFor="city">City</label>
+                <input className="w-full p-2 border border-gray-300 rounded" type="text" id="city" name="city" required />
               </div>
               <div className="mb-4 flex-1 mr-4">
                 <label htmlFor="zipCode">ZIP Code</label>
-                <input type="text" id="zipCode" name="zipCode" placeholder="XXXX" required />
+                <input className="w-full p-2 border border-gray-300 rounded" type="text" id="zipCode" name="zipCode" placeholder="XXXX" required />
               </div>
             </div>
             <div className="mb-4 flex-1 mr-4">
               <label htmlFor="email">Email</label>
-              <input type="email" id="email" name="email" required />
+              <input className="w-full p-2 border border-gray-300 rounded" type="email" id="email" name="email" required />
             </div>
             <div className="mb-4 flex-1 mr-4">
               <label htmlFor="phoneNumber">Phone Number</label>
-              <input type="tel" id="phoneNumber" name="" placeholder="XXX-XXXXXXX" required />
+              <input className="w-full p-2 border border-gray-300 rounded" type="tel" id="phoneNumber" name="" placeholder="XXX-XXXXXXX" required />
             </div>
-            <button className='bg-blue-500 text-white p-2 px-4 rounded cursor-pointer'>submit</button>
+            <button className='bg-blue-600 text-white p-2 px-4 rounded cursor-pointer hover:bg-blue-400'>submit</button>
           </form>
         </div>
       </div>
       <div>
-        <p className='buttonR'>
-          <button className='downloadbtn'>Download PDF</button>
+        <p className='text-center'>
+          <button className='cursor-pointer transition duration-300 ease-in-out text-center bg-green-400 text-white text-lg px-8 py-4 rounded-full hover:bg-green-600'>Download PDF</button>
         </p>
       </div>
     </div>

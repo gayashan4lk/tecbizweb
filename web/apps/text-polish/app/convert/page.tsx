@@ -40,7 +40,7 @@ return (
         </div>
       </div>
       <p className="text-center">
-        <button className="text-center bg-blue-500 text-white text-lg px-6 py-3 rounded-3xl" onClick={getText}>Generate</button>
+        <button className="text-center bg-blue-600 hover:bg-blue-400 text-white text-lg px-6 py-3 rounded-3xl" onClick={getText}>Generate</button>
       </p>
     </div>
   );
