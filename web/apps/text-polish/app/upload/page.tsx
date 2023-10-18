@@ -50,10 +50,10 @@ function App() {
           { }
         </canvas>
         <p className="buttonR ">
-          <button className="cursor-pointer transition duration-300 ease-in-out text-center bg-blue-600 hover:bg-blue-400 text-white text-lg px-5 py-2 rounded-full" onClick={moveToPreviousImage}>
+          <button className="transform scale-100 hover:scale-105 cursor-pointer transition duration-300 ease-in-out  text-center bg-blue-600 hover:bg-blue-400 text-white text-lg px-5 py-2 rounded-full" onClick={moveToPreviousImage}>
             Previous
           </button >
-          <button className="cursor-pointer transition duration-300 ease-in-out text-center bg-blue-600 hover:bg-blue-400 text-white text-lg px-5 py-2 rounded-full" onClick={moveToNextImage}>
+          <button className="transform scale-100 hover:scale-105 cursor-pointer transition duration-300 ease-in-out text-center bg-blue-600 hover:bg-blue-400 text-white text-lg px-5 py-2 rounded-full" onClick={moveToNextImage}>
             Next
           </button>
         </p>
