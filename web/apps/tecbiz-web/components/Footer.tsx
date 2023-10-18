@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
         <div className="md:col-span-1 text-start">
           <h4 className="text-xl font-bold mt-4 ml-4">TecBiz Solutions</h4>
           <p className="text-gray-400 mt-4 ml-4">
-            "At Tec Biz Solutions, our mission is to establish a private limited company that excels in delivering IT solutions while actively participating as a registered Upwork agency. We are dedicated to leveraging our expertise to drive innovation and provide exceptional services, bridging the gap between AI and industries, and fostering growth opportunities for businesses and professionals alike."
+            At Tec Biz Solutions, our mission is to establish a private limited company that excels in delivering IT solutions while actively participating as a registered Upwork agency. We are dedicated to leveraging our expertise to drive innovation and provide exceptional services, bridging the gap between AI and industries, and fostering growth opportunities for businesses and professionals alike.
           </p>
         </div>
         <div className="md:col-span-1 text-start">

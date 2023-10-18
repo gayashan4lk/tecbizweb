@@ -28,7 +28,7 @@ const Founders: React.FC = () => {
               </h2>
 
               <h1 className="text-xl md:text-1xl font-semibold text-center mb-8">
-                Nadeera's Innovative Mindset And Dedication To Staying Ahead Of Industry Trends Have Been Pivotal In Shaping TecBiz Solutions Into A Forward-Thinking And Agile IT Company. Her Commitment To Continuous Improvement Keeps Us At The Forefront Of Technological Advancements.
+                Nadeera Innovative Mindset And Dedication To Staying Ahead Of Industry Trends Have Been Pivotal In Shaping TecBiz Solutions Into A Forward-Thinking And Agile IT Company. Her Commitment To Continuous Improvement Keeps Us At The Forefront Of Technological Advancements.
               </h1>
               <div className="flex justify-center mt-8">
               <div className="bg-black p-2 rounded-full mr-4">

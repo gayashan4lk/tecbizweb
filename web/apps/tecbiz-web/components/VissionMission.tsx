@@ -15,7 +15,7 @@ const VissionMission: React.FC = () => {
             </div>
             <h2 className="text-3xl md:text-3xl font-bold underline text-center mb-8">Our Vision</h2>
             <h1 className="text-xl md:text-xl font-semibold text-center mb-8">
-              "At TecBiz Solutions, We Passionately Aspire To Empower Individuals, Guiding Them On A Transformative Journey Towards Excellence Through The Boundless Realms Of AI Innovation, Unlocking Their Full Potential In The World Of Opportunities."
+              At TecBiz Solutions, We Passionately Aspire To Empower Individuals, Guiding Them On A Transformative Journey Towards Excellence Through The Boundless Realms Of AI Innovation, Unlocking Their Full Potential In The World Of Opportunities.
             </h1>
           </div>
 
@@ -25,7 +25,7 @@ const VissionMission: React.FC = () => {
             </div>
             <h2 className="text-3xl md:text-3xl font-bold underline text-center mb-8">Our Mission</h2>
             <h1 className="text-xl md:text-xl font-semibold text-center mb-8">
-              "At TecBiz Solutions, Our Mission Is To Catalyze Personal Development By Harnessing The Power Of Technology, Enabling Individuals To Flourish, Excel, And Seize New Horizons In Their Professional Journeys."
+              At TecBiz Solutions, Our Mission Is To Catalyze Personal Development By Harnessing The Power Of Technology, Enabling Individuals To Flourish, Excel, And Seize New Horizons In Their Professional Journeys.
             </h1>
           </div>
         </div>

@@ -64,7 +64,7 @@ s      <div className="container mx-auto">
             </h2>
 
             <p className="text-xl md:text-1xl font-semibold text-center mb-8">
-              Narada's dedication to efficient project management ensures that our initiatives are delivered on time and within budget. Her expertise is an invaluable asset to our projects.
+              Narada dedication to efficient project management ensures that our initiatives are delivered on time and within budget. Her expertise is an invaluable asset to our projects.
             </p>
 
             <div className="flex justify-center">
@@ -100,7 +100,7 @@ s      <div className="container mx-auto">
               <u className="font-bold text-blue-300">Chathura</u>
             </h2>
             <p className="text-xl md:text-1xl font-semibold text-center mb-8">
-              Chathura's attention to detail and commitment to quality ensure that our solutions are not only functional but also user-friendly and reliable. He is dedicated to crafting 
+              Chathura attention to detail and commitment to quality ensure that our solutions are not only functional but also user-friendly and reliable. He is dedicated to crafting 
             </p>
 
             <div className="flex justify-center">
