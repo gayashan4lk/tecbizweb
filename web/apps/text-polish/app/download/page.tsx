@@ -65,13 +65,13 @@ function App() {
               <label htmlFor="phoneNumber">Phone Number</label>
               <input className="text-black transform scale-100 hover:scale-105 cursor-pointer transition duration-300 ease-in-out w-full p-2 border border-gray-300 rounded" type="tel" id="phoneNumber" name="" placeholder="XXX-XXXXXXX" required />
             </div>
-            <button className='transform scale-100 hover:scale-105 transition duration-300 ease-in-out bg-blue-600 text-white p-2 px-4 rounded cursor-pointer hover:bg-blue-400'>submit</button>
+            <button className='transform scale-100 hover:scale-105 transition duration-300 ease-in-out bg-blue-600 text-white p-2 px-4 rounded-xl cursor-pointer hover:bg-blue-400'>submit</button>
           </form>
         </div>
       </div>
       <div>
         <p className='text-center'>
-          <button className='transform scale-100 hover:scale-105 cursor-pointer transition duration-300 ease-in-out text-center bg-green-400 text-white text-lg px-8 py-4 rounded-full hover:bg-green-600'>Download PDF</button>
+          <button className='transform scale-100 hover:scale-105 cursor-pointer transition duration-300 ease-in-out text-center bg-green-600 text-white text-lg px-8 py-4 rounded-xl hover:bg-green-400'>Download PDF</button>
         </p>
       </div>
     </div>
