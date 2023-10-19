@@ -5,6 +5,7 @@ import VissionMission from '../components/VissionMission';
 import Founders from '../components/Founders';
 import Team from '../components/Team';
 
+
 const HomePage: React.FC = () => {
   return (
     <div className="bg-white dark:bg-gray-800">
