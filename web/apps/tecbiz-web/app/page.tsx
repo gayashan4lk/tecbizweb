@@ -5,20 +5,17 @@ import VissionMission from '../components/VissionMission';
 import Founders from '../components/Founders';
 import Team from '../components/Team';
 
-
-
 const HomePage: React.FC = () => {
   return (
     <div className="bg-white dark:bg-gray-800">
-    <div>
-      <HeroSection />
-      <FeaturesSection />
-      <VissionMission />
-      <Founders />
-      <Team/>
+      <div className="content-container md:text-center"> 
+        <HeroSection />
+        <FeaturesSection />
+        <VissionMission />
+        <Founders />
+        <Team />
+      </div>
     </div>
-    </div>
-  
   );
 };
 
