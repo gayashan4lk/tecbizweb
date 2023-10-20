@@ -11,26 +11,26 @@ import {
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-black text-white py-12">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4"> 
-        <div className="text-center md:text-left">
-        <h4 className="text-xl font-bold mt-4 ml-4">TecBizSolution</h4>
-          <p className="text-gray-400 mt-4 ml-4"> 
-            "At Tec Biz Solutions, our mission is to establish a private limited company that excels in delivering IT solutions while actively participating as a registered Upwork agency. We are dedicated to leveraging our expertise to drive innovation and provide exceptional services, bridging the gap between AI and industries, and fostering growth opportunities for businesses and professionals alike."
+    <footer className="bg-black text-blue-100 py-12">
+      <div className="container mx-auto ml-4 mr-4 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-4">
+        <div className="text-start">
+          <h4 className="text-xl font-bold mt-4">TecBiz Solutions</h4>
+          <p className="text-gray-400 mt-4 text-center">
+            At Tec Biz Solutions, our mission is to establish a private limited company that excels in delivering IT solutions while actively participating as a registered Upwork agency. We are dedicated to leveraging our expertise to drive innovation and provide exceptional services, bridging the gap between AI and industries, and fostering growth opportunities for businesses and professionals alike.
           </p>
         </div>
-        <div className="text-center md:text-left">
-        <h4 className="text-xl font-bold mt-4 ml-4">Address</h4>
-          <p className="text-gray-400 mt-4 ml-4"> 
+        <div className="text-start">
+          <h4 className="text-xl font-bold mt-4">Address</h4>
+          <p className="text-gray-400 mt-4">
             SRI LANKA<br />
             47/1, Jawatte Road,<br />
             Colombo 05,<br />
             Sri Lanka
           </p>
         </div>
-        <div className="text-center md:text-left "> 
-          <h4 className="text-xl font-bold mt-4 ml-4 " >Our Social Links</h4>
-          <ul className="space-y-2 mt-4 ml-4 ">
+        <div className="text-start">
+          <h4 className="text-xl font-bold mt-4">Our Social Links</h4>
+          <ul className="space-y-2 mt-4">
             <li>
               <a href="#" className="text-gray-400 hover:text-white transition duration-300">
                 <FontAwesomeIcon icon={faFacebook} className="w-6 h-6 inline" /> Facebook
@@ -64,7 +64,9 @@ const Footer: React.FC = () => {
           </ul>
         </div>
       </div>
-      <p className="text-center font-bold text-gray-200"> &copy; 2023 TechBizSolution. All rights reserved.</p>
+      <p className="text-center font-bold text-gray-200 mt-8">
+        &copy; 2023 TechBizSolution. All rights reserved.
+      </p>
     </footer>
   );
 };

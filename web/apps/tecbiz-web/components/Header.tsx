@@ -15,59 +15,26 @@ const Header: React.FC = () => {
     <header className="bg-black py-4 md:py-6 lg:py-8">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <h1 className="text-blue-200 text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 md:mb-0">
-          TechBizSolution
+          Tecbiz Solutions
         </h1>
         <nav className="md:flex space-x-6 text-blue-200 text-lg">
-          <Link href="/Home">
+          <Link href="/">
             <span className="hover:text-blue-900 transition duration-300 cursor-pointer">
               Home
             </span>
           </Link>
-          <div className="group relative">
+          <Link href="/Services">
             <span className="hover:text-blue-900 transition duration-300 cursor-pointer">
               Services
             </span>
-            <ul className="absolute hidden text-white bg-gray-900 space-y-2 py-2 rounded-lg group-hover:block">
-              <li>
-                <Link href="/services/A">
-                  <span className="hover:text-blue-900 cursor-pointer">A</span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/B">
-                  <span className="hover:text-blue-900 cursor-pointer">B</span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/C">
-                  <span className="hover:text-blue-900 cursor-pointer">C</span>
-                </Link>
-              </li>
-              {/* Add more */}
-            </ul>
-          </div>
-          <div className="group relative">
+          </Link>
+          <Link href="/Products">
             <span className="hover:text-blue-900 transition duration-300 cursor-pointer">
               Products
             </span>
-            <ul className="absolute hidden text-white bg-gray-900 space-y-2 py-2 rounded-lg group-hover:block">
-              <li>
-                <Link href="/products/A">
-                  <span className="hover:text-blue-900 cursor-pointer">A</span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/products/B">
-                  <span className="hover:text-blue-900 cursor-pointer">B</span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/products/C">
-                  <span className="hover:text-blue-900 cursor-pointer">C</span>
-                </Link>
-              </li>
-            </ul>
-          </div>
+          </Link>
+          
+          
           <Link href="/About">
             <span className="hover:text-blue-900 transition duration-300 cursor-pointer">
               About
