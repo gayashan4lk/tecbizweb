@@ -12,14 +12,14 @@ const ContactPage: React.FC = () => {
           <FontAwesomeIcon icon={faPhone}     
     className="w-6 h-6 mr-2 text-blue-900 transform hover:scale-150 transition-transform"
 />
-          <p>+9471-971-9626</p>
+          <p>+9471-441-1600</p>
         </div>
 
         <div className="mb-4 flex items-center">
           <FontAwesomeIcon icon={faEnvelope} 
     className="w-6 h-6 mr-2 text-blue-900 transform hover:scale-150 transition-transform"/>
 
-          <p>hello@tecbizsolutionss.com</p>
+          <p>hello@tecbizsolutions.com</p>
         </div>
 
         <div className="mb-4">
