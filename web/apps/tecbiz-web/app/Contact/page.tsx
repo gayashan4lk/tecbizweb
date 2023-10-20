@@ -6,15 +6,19 @@ const ContactPage: React.FC = () => {
   return (
     <div className="p-4 bg-black text-white flex justify-end">
       <div className="w-1/2"> 
-        <h1 className="text-3xl font-semibold mb-4 text-blue-900">GET IN UPDATE</h1>
+        <h1 className="text-3xl font-semibold mb-8 text-blue-900" style={{ letterSpacing: '10px' }}>GET IN UPDATE</h1>
         
         <div className="mb-4 flex items-center">
-          <FontAwesomeIcon icon={faPhone} className="w-6 h-6  mr-2 text-blue-900" />
+          <FontAwesomeIcon icon={faPhone}     
+    className="w-6 h-6 mr-2 text-blue-900 transform hover:scale-150 transition-transform"
+/>
           <p>+9471-971-9626</p>
         </div>
 
         <div className="mb-4 flex items-center">
-          <FontAwesomeIcon icon={faEnvelope} className="w-6 h-6 mr-2 text-blue-900" />
+          <FontAwesomeIcon icon={faEnvelope} 
+    className="w-6 h-6 mr-2 text-blue-900 transform hover:scale-150 transition-transform"/>
+
           <p>hello@tecbizsolutionss.com</p>
         </div>
 
