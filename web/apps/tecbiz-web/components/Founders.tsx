@@ -9,7 +9,9 @@ import {
 import Image from 'next/image';
 
 
-import placeholderImage from '../images/A.png';
+import placeholderImage from '../images/f.png';
+import placeholderImage2 from '../images/m.png';
+
 
 const Founders: React.FC = () => {
   return (
@@ -59,7 +61,7 @@ const Founders: React.FC = () => {
           <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
             <div className="flex flex-col items-center">
               <div className="mb-4">
-                <Image src={placeholderImage} alt="Dummy Person" className="w-32 h-32 rounded-full object-cover" />
+                <Image src={placeholderImage2} alt="Dummy Person" className="w-32 h-32 rounded-full object-cover" />
               </div>
 
               <h2 className="text-3xl md:text-3xl font-semibold text-center mb-8">

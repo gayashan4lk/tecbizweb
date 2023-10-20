@@ -9,7 +9,7 @@ import {
 import Image from 'next/image';
 
 
-import placeholderImage from '../images/A.png';
+import placeholderImage from '../images/m.png';
 
 const Team: React.FC = () => {
   return (
