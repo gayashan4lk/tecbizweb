@@ -16,8 +16,7 @@
         "firebase-debug.log",
         "firebase-debug.*.log"
       ],
-      "predeploy": [
-      ]
+      "predeploy": []
     }
   ],
   "hosting": [
@@ -44,7 +43,25 @@
     "rules": "storage.rules"
   },
   "emulators": {
-    "singleProjectMode": true
+    "singleProjectMode": true,
+    "functions": {
+      "port": 9400
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "database": {
+      "port": 9000
+    },
+    "hosting": {
+      "port": 5000
+    },
+    "storage": {
+      "port": 9199
+    },
+    "ui": {
+      "enabled": true
+    }
   },
   "remoteconfig": {
     "template": "remoteconfig.template.json"
