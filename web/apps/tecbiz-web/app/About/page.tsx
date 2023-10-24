@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutPage: React.FC = () => {
   return (
-    <div className="h-screen flex flex-col justify-center items-center bg-black text-white">
+    <div className="h-screen flex flex-col justify-center items-center bg-black text-white ">
       <div className="text-center py-16">
         <h1 className="text-2xl md:text-4xl lg:text-6xl font-semibold mb-4 text-blue-100 hover:text-blue-400 transition duration-300">WE LIVE AND BREATHE</h1>
         <p className="text-base md:text-lg lg:text-xl font-medium text-white hover:text-blue-900 transition duration-300">

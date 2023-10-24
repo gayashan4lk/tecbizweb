@@ -11,9 +11,9 @@ import {
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-black text-blue-100 py-12">
+    <footer className="bg-black text-blue-100 py-12 text-md">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="text-center">
+        <div className="text-center ">
           <h4 className="text-xl font-bold mt-4">TecBiz Solutions</h4>
           <p className="text-gray-400 mt-4">
             At Tec Biz Solutions, our mission is to establish a private limited company that excels in delivering IT solutions while actively participating as a registered Upwork agency. We are dedicated to leveraging our expertise to drive innovation and provide exceptional services, bridging the gap between AI and industries, and fostering growth opportunities for businesses and professionals alike.
