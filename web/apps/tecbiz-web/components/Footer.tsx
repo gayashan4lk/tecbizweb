@@ -22,10 +22,8 @@ const Footer: React.FC = () => {
         <div className="text-center">
           <h4 className="text-xl font-bold mt-4">Address</h4>
           <p className="text-gray-400 mt-4">
-            SRI LANKA<br />
-            47/1, Jawatte Road,<br />
-            Colombo 05,<br />
-            Sri Lanka
+          SRI LANKA <br/> TecBizSolutions <br/>No.22,<br /> Beliatta (82400),<br /> Sri Lanka
+            
           </p>
         </div>
         <div className="text-center">
