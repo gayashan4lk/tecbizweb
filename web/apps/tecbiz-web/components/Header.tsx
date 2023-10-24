@@ -48,7 +48,7 @@ const Header: React.FC = () => {
         </nav>
 
         <div className="flex mt-4 md:mt-0 space-x-4">
-          <a href="#" className="text-blue-200 hover:text-blue-900 transition duration-300">
+          <a href="https://twitter.com/tecbizSolutions" className="text-blue-200 hover:text-blue-900 transition duration-300">
             <FontAwesomeIcon icon={faTwitter} className="w-6 h-6 md:w-8 md:h-8" />
           </a>
           <a href="#" className="text-blue-200 hover:text-blue-900 transition duration-300">
@@ -60,10 +60,10 @@ const Header: React.FC = () => {
           <a href="#" className="text-blue-200 hover:text-blue-900 transition duration-300">
             <FontAwesomeIcon icon={faTelegram} className="w-6 h-6 md:w-8 md:h-8" />
           </a>
-          <a href="#" className="text-blue-200 hover:text-blue-900 transition duration-300">
+          <a href="https://www.linkedin.com/in/tecbiz-solutions-9901b5298" className="text-blue-200 hover:text-blue-900 transition duration-300">
             <FontAwesomeIcon icon={faLinkedin} className="w-6 h-6 md:w-8 md:h-8" />
           </a>
-          <a href="#" className="text-blue-200 hover:text-blue-900 transition duration-300">
+          <a href="https://www.youtube.com/channel/UCH5lzLZnctq1D85zRmK2Rzw" className="text-blue-200 hover:text-blue-900 transition duration-300">
             <FontAwesomeIcon icon={faYoutube} className="w-6 h-6 md:w-8 md:h-8" />
           </a>
         </div>

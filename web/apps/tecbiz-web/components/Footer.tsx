@@ -35,12 +35,12 @@ const Footer: React.FC = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-400 hover:text-white transition duration-300">
+              <a href="https://twitter.com/tecbizSolutions" className="text-gray-400 hover:text-white transition duration-300">
                 <FontAwesomeIcon icon={faTwitter} className="w-6 h-6 inline" /> Twitter
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-400 hover:text-white transition duration-300">
+              <a href="https://www.linkedin.com/in/tecbiz-solutions-9901b5298" className="text-gray-400 hover:text-white transition duration-300">
                 <FontAwesomeIcon icon={faLinkedin} className="w-6 h-6 inline" /> LinkedIn
               </a>
             </li>
@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-400 hover:text-white transition duration-300">
+              <a href="https://www.youtube.com/channel/UCH5lzLZnctq1D85zRmK2Rzw" className="text-gray-400 hover:text-white transition duration-300">
                 <FontAwesomeIcon icon={faYoutube} className="w-6 h-6 inline" /> YouTube
               </a>
             </li>
