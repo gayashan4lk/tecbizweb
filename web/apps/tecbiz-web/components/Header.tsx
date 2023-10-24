@@ -51,13 +51,13 @@ const Header: React.FC = () => {
           <a href="https://twitter.com/tecbizSolutions" className="text-blue-200 hover:text-blue-900 transition duration-300">
             <FontAwesomeIcon icon={faTwitter} className="w-6 h-6 md:w-8 md:h-8" />
           </a>
-          <a href="#" className="text-blue-200 hover:text-blue-900 transition duration-300">
+          <a href="" https://web.facebook.com/profile.php?id=61552408965303className="text-blue-200 hover:text-blue-900 transition duration-300">
             <FontAwesomeIcon icon={faFacebook} className="w-6 h-6 md:w-8 md:h-8" />
           </a>
           <a href="#" className="text-blue-200 hover:text-blue-900 transition duration-300">
             <FontAwesomeIcon icon={faInstagram} className="w-6 h-6 md:w-8 md:h-8" />
           </a>
-          <a href="#2s" className="text-blue-200 hover:text-blue-900 transition duration-300">
+          <a href="#" className="text-blue-200 hover:text-blue-900 transition duration-300">
             <FontAwesomeIcon icon={faTelegram} className="w-6 h-6 md:w-8 md:h-8" />
           </a>
           <a href="https://www.linkedin.com/in/tecbiz-solutions-9901b5298" className="text-blue-200 hover:text-blue-900 transition duration-300">
