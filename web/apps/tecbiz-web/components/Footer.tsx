@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
           <h4 className="text-xl font-bold mt-4">Our Social Links</h4>
           <ul className="space-y-2 mt-4">
             <li>
-              <a href="#" className="text-gray-400 hover:text-white transition duration-300">
+              <a href="#2" className="text-gray-400 hover:text-white transition duration-300">
                 <FontAwesomeIcon icon={faFacebook} className="w-6 h-6 inline" /> Facebook
               </a>
             </li>
