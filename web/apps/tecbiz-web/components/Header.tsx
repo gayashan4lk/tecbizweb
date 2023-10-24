@@ -12,7 +12,7 @@ import {
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-black py-4 md:py-6 lg:py-8">
+    <header className="bg-black shadow-lg fixed top-0 left-0 right-0 z-50">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <h1 className="text-blue-200 text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 md:mb-0">
           Tecbiz Solutions
