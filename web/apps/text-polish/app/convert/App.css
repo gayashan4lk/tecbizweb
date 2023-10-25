@@ -1,36 +1,7 @@
 body {
-    background-color:rgb(215, 216, 216);
+    background-color:rgb(0, 0, 0);
 }
-
-.button {
-    text-align: center;
-    background-color: rgb(61, 210, 63);
-    font-size: 16px;
-    padding: 12px 25px;
-    border: none;
-    color: white;
-    border-radius: 20px; 
-}
-.buttonR{
-    text-align:center;
-}
-
-h1{
-    text-align:center;
-    color:white;
-    font-size:35px ;
-
-}
-
-.txtgen {
-    color: rgb(255, 255, 255);
-}
-
-.container {
-    display: flex;
-    justify-content: center; 
-}
-    
+ 
 .left-side,
 .right-side {
     flex: 1;
@@ -43,9 +14,6 @@ h1{
         resize: none;
         overflow-y: scroll;
     }
-
-
-    
     .canvasS{
         background-color:white;
         width: 700px;
@@ -54,45 +22,13 @@ h1{
         border-radius: 10px;
     }
 
-
-    .navbar {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        background-color: #333;
-        justify-content: space-evenly; 
-        align-items: center;
-        padding: 0 20px;
-        height: 50px;
-        outline: 2px solid rgb(80, 80, 81);
-      }
-      
-      .navbar li {
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        font-size:18px ;
-      }
-      
-      .navbar a {
-        text-decoration: none;
-        color: white;
-      }
-.choose {
-    background-color:#333;
-    height: 35px;
-}
-.Cbutton{
-    background-color:#333;
-    color: white;
-    font-size: 13px;
-    
-}
-.list{
-    background-color:#333 ;
-    width: 110px;
-}
+    .canvasR{
+        background-color:white;
+        width: 970px;
+        height: 500px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
 
 .Ucontainer{
     padding-left:300px ;
@@ -100,125 +36,8 @@ h1{
     justify-content: space-between;
 }
 
-.nextbtn {
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    text-align: center;
-    background-color: rgb(97, 179, 182);
-    font-size: 16px;
-    padding: 10px 20px;
-    border: none;
-    color: rgb(255, 255, 255);
-    border-radius: 30px; 
-}
 
 .canvasbtn {
     justify-content: space-evenly; 
         align-items: center;
 }
-
-.downloadbtn {
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    text-align: center;
-    background-color: rgb(61, 210, 63);
-    font-size: 16px;
-    padding: 15px 30px;
-    border: none;
-    color: rgb(255, 255, 255);
-    border-radius: 30px; 
-    
-}
-
-.form-container {
-    width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-
-  .form-group {
-    margin-bottom: 15px;
-  }
-
-  .form-label {
-    font-weight: bold;
-  }
-
-  .form-input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-
-  .form-button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-
-
-
-  .personal-info-container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.form-group {
-    margin-bottom: 15px;
-}
-
-.form-group label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group input[type="tel"],
-.form-group select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-.form-row {
-    display: flex;
-    justify-content: space-between;
-}
-
-.form-row .form-group {
-    flex: 1;
-    margin-right: 10px;
-}
-
-button[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.main-form-container{
-    max-width:850px;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 5px;
-    display:flex;
-}
-
-

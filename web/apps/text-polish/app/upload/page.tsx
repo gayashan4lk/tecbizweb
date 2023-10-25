@@ -28,35 +28,45 @@ function App() {
       <div>
         <TPComponent />
       </div>
-      <div className='choose'>
-        <button className="Cbutton insert" onClick={toggleInsertOptions}>Insert</button>
-        <button className="Cbutton edit">Edit</button>
+      <div className="bg-gray-800 h-35">
+        <button className="transform scale-100 hover:scale-105 cursor-pointer transition duration-300 ease-in-out bg-gray-800 text-white text-base mr-4" onClick={toggleInsertOptions}>
+          Insert
+        </button>
+        <button className="transform scale-100 hover:scale-105 cursor-pointer transition duration-300 ease-in-out bg-gray-800 text-white text-base">Edit</button>
       </div>
-      {showInsertOptions && (
-        <div className="list">
+      <div className={`h-24 transition-transform ease-in-out duration-500 transform ${showInsertOptions ? 'scale-y-100' : 'scale-y-0'}`}>
+        <div className="bg-black w-28">
           <div>
-            <button className='Cbutton'>Word Document</button>
+            <button className="transform scale-100 hover:scale-105 cursor-pointer transition duration-300 ease-in-out bg-black text-white text-sm">Word Document</button>
           </div>
           <div>
-            <button className='Cbutton'>PDF</button>
+            <button className="transform scale-100 hover:scale-105 cursor-pointer transition duration-300 ease-in-out bg-black text-white text-sm">PDF</button>
           </div>
           <div>
-            <button className='Cbutton'>Text</button>
+            <button className="transform scale-100 hover:scale-105 cursor-pointer transition duration-300 ease-in-out bg-black text-white text-sm">Text</button>
           </div>
         </div>
-      )}
-      <div className="Ucontainer">
-        <canvas id="imageCanvas" className='canvasS'>
-          { }
-        </canvas>
-        <p className="buttonR ">
-          <button className="nextbtn" onClick={moveToPreviousImage}>
-            Previous
-          </button >
-          <button className="nextbtn" onClick={moveToNextImage}>
-            Next
+      </div>
+      <div className="pl-40 pr-40 pt-70 grid grid-rows-1 grid-flow-col">
+        <div className="flex items-center justify-end">
+          <button
+            className="transform scale-100 hover:scale-150 cursor-pointer transition duration-300 ease-in-out text-center bg-transparent hover:bg-transparent  text-white text-lg px-16 py-20 rounded-xl"
+            onClick={moveToPreviousImage}
+          >
+            <p className='text-4xl'>〈</p>
           </button>
-        </p>
+        </div>
+        <div>
+          <canvas id="imageCanvas" className="canvasR">{ }</canvas>
+        </div>
+        <div className="flex items-center justify-start">
+          <button
+            className="transform scale-100 hover:scale-150 cursor-pointer transition duration-300 ease-in-out text-center bg-transparent hover:bg-transparent text-white text-lg px-16 py-20 rounded-xl"
+            onClick={moveToNextImage}
+          >
+            <p className='text-4xl'>〉</p>
+          </button>
+        </div>
       </div>
     </div>
   );
