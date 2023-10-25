@@ -8,6 +8,7 @@ import {
   faTelegram,
   faInstagram,
   faYoutube,
+  faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons';
 
 const Header: React.FC = () => {
@@ -57,14 +58,15 @@ const Header: React.FC = () => {
           <a href="#" className="text-blue-200 hover:text-blue-900 transition duration-300">
             <FontAwesomeIcon icon={faInstagram} className="w-6 h-6 md:w-8 md:h-8" />
           </a>
-          <a href="#2s" className="text-blue-200 hover:text-blue-900 transition duration-300">
-            <FontAwesomeIcon icon={faTelegram} className="w-6 h-6 md:w-8 md:h-8" />
-          </a>
+          
           <a href="https://www.linkedin.com/in/tecbiz-solutions-9901b5298" className="text-blue-200 hover:text-blue-900 transition duration-300">
             <FontAwesomeIcon icon={faLinkedin} className="w-6 h-6 md:w-8 md:h-8" />
           </a>
           <a href="https://www.youtube.com/channel/UCH5lzLZnctq1D85zRmK2Rzw" className="text-blue-200 hover:text-blue-900 transition duration-300">
             <FontAwesomeIcon icon={faYoutube} className="w-6 h-6 md:w-8 md:h-8" />
+          </a>
+          <a href="#2s" className="text-blue-200 hover:text-blue-900 transition duration-300">
+            <FontAwesomeIcon icon={faWhatsapp} className="w-6 h-6 md:w-8 md:h-8" />
           </a>
         </div>
       </div>

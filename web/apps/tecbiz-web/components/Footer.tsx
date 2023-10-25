@@ -7,6 +7,7 @@ import {
   faTelegram,
   faInstagram,
   faYoutube,
+  faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons';
 
 const Footer: React.FC = () => {
@@ -30,7 +31,7 @@ const Footer: React.FC = () => {
           <h4 className="text-xl font-bold mt-4">Our Social Links</h4>
           <ul className="space-y-2 mt-4">
             <li>
-              <a href="https://web.facebook.com/profile.php?id=61552408965303" className="text-gray-400 hover:text-white transition duration-300">
+              <a href="" className="text-gray-400 hover:text-white transition duration-300">
                 <FontAwesomeIcon icon={faFacebook} className="w-6 h-6 inline" /> Facebook
               </a>
             </li>
@@ -44,11 +45,7 @@ const Footer: React.FC = () => {
                 <FontAwesomeIcon icon={faLinkedin} className="w-6 h-6 inline" /> LinkedIn
               </a>
             </li>
-            <li>
-              <a href="#" className="text-gray-400 hover:text-white transition duration-300">
-                <FontAwesomeIcon icon={faTelegram} className="w-6 h-6 inline" /> Telegram
-              </a>
-            </li>
+            
             <li>
               <a href="#" className="text-gray-400 hover:text-white transition duration-300">
                 <FontAwesomeIcon icon={faInstagram} className="w-6 h-6 inline" /> Instagram
@@ -57,6 +54,11 @@ const Footer: React.FC = () => {
             <li>
               <a href="https://www.youtube.com/channel/UCH5lzLZnctq1D85zRmK2Rzw" className="text-gray-400 hover:text-white transition duration-300">
                 <FontAwesomeIcon icon={faYoutube} className="w-6 h-6 inline" /> YouTube
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-gray-400 hover:text-white transition duration-300">
+                <FontAwesomeIcon icon={faWhatsapp} className="w-6 h-6 inline" /> WhatsApp
               </a>
             </li>
           </ul>
