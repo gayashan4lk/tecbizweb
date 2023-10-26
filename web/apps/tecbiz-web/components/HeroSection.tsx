@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="bg-hero-pattern bg-black bg-cover bg-center py-16 md:py-24 lg:py-32 text-center text-black">
+    <section className="bg-hero-pattern bg-black bg-cover bg-center py-32 md:py-16 lg:py-32 text-center text-black">
       <div className="container mx-auto">
         <h1 className="text-2xl md:text-4xl lg:text-6xl font-semibold mb-4 text-blue-100 hover:text-blue-400 transition duration-300">
           Empowering Individuals & Achieve Excellence Through Professional Opportunities And AI Innovation.
