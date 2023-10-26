@@ -4,7 +4,7 @@ const ProductsPage: React.FC = () => {
   return (
     <div className="bg-black py-16 text-white text-center">
       <h1 className="py-8 text-2xl md:text-4xl lg:text-6xl font-semibold mb-4 text-blue-100 hover:text-blue-400 transition duration-300">Discover Our Extraordinary Products</h1>
-      <p className="text-lg md:text-lg lg:text-xl mb-8 text-white hover:text-blue-900 transition duration-300">
+      <p className="text-lg md:text-lg lg:px-8 mb-8 text-white hover:text-blue-900 transition duration-300">
         Dive into the world of innovation and wonder with our exceptional product offerings. We've carefully crafted each product to redefine your experience and surpass your expectations.
       </p>
 

@@ -5,32 +5,30 @@ import FeaturesSection from '../components/FeaturesSection';
 import VissionMission from '../components/VissionMission';
 import Founders from '../components/Founders';
 import Team from '../components/Team';
-import Welcome from "./Te.json";
+import Welcome from "./Hello.json";
 import Lottie from 'lottie-react';
-
-
 
 const HomePage: React.FC = () => {
   return (
     <div className="bg-black dark:bg-gray-800">
       <div className="content-container md:text-center">
-      <div className="background-animation">
-      <Lottie
-        animationData={Welcome}
-        loop={true}
-        autoplay={true}
-      />
-    
+        <div className="background-animation">
+          <Lottie
+            animationData={Welcome}
+            loop={true}
+            autoplay={true}
+            className="w-full h-32 md:h-64" // Responsive dimensions using Tailwind CSS classes
+          />
+        </div>
         <HeroSection />
         <FeaturesSection />
         <VissionMission />
         <Founders />
         <Team />
       </div>
-      </div>
     </div>
-  
   );
 };
 
 export default HomePage;
+
