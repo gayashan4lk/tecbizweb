@@ -9,7 +9,7 @@ import Team from '../components/Team';
 const HomePage: React.FC = () => {
   return (
     <div className="bg-white dark:bg-gray-800">
-      <div className="content-container md:text-center"> 
+      <div className="content-container md:text-center">
         <HeroSection />
         <FeaturesSection />
         <VissionMission />
