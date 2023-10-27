@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
             </li>
             
             <li>
-              <a href="#" className="text-gray-400 hover:text-white transition duration-300">
+              <a href="https://www.instagram.com/tecbizsolutions/" className="text-gray-400 hover:text-white transition duration-300">
                 <FontAwesomeIcon icon={faInstagram} className="w-6 h-6 inline" /> Instagram
               </a>
             </li>
