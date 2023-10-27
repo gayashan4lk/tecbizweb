@@ -7,6 +7,7 @@ import Founders from '../components/Founders';
 import Team from '../components/Team';
 import Welcome from "./Hello.json";
 import Lottie from 'lottie-react';
+import Scroll from './Scroll';
 
 const HomePage: React.FC = () => {
   return (
@@ -17,9 +18,10 @@ const HomePage: React.FC = () => {
             animationData={Welcome}
             loop={true}
             autoplay={true}
-            className="w-full h-32 md:h-64" // Responsive dimensions using Tailwind CSS classes
+            className="w-full h-32 md:h-64 " // Custom scrollbar using Tailwind CSS classes
           />
         </div>
+        <Scroll /> {/* Scrollable content */}
         <HeroSection />
         <FeaturesSection />
         <VissionMission />
@@ -31,4 +33,3 @@ const HomePage: React.FC = () => {
 };
 
 export default HomePage;
-

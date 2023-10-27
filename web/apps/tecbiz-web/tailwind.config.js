@@ -1,7 +1,6 @@
 const { createGlobPatternsForDependencies } = require('@nx/react/tailwind');
 const { join } = require('path');
 
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     join(
@@ -11,9 +10,21 @@ module.exports = {
     ...createGlobPatternsForDependencies(__dirname),
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#FF5733', // Change this color to your desired scrollbar color
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    function ({ addBase, theme }) {
+      addBase({
+        'html': {
+          'scrollbar-width': 'thin',
+          'scrollbar-color': `${theme('colors.primary')} ${theme('colors.gray-300')}`,
+        },
+      });
+    },
+  ],
   darkMode: 'class',
 };
-
