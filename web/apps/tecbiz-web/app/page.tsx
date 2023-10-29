@@ -17,14 +17,14 @@ const RootLayout: React.FC = () => {
   };
 
   return (
-    <div className="bg-black " style={backgroundStyle}>
-      <div className="content-container md:text-center scrollbar-thin">
-        <div className="w-full h-32 md:h-64">
+    <div className="bg-black">
+      <div className="content-container md:text-center scrollbar-thin" style={{ marginTop: '80px' }}>
+        <div className="w-full h-96 sm:hidden md:hidden lg:h-96 xl:h-96">
           <Lottie
             animationData={Welcome}
             loop={true}
             autoplay={true}
-            style={{ maxWidth: '100%', height: 'auto' }}
+            style={{ maxWidth: '100%', height: '100%' }}
           />
         </div>
         <HeroSection />
