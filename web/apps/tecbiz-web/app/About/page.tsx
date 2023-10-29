@@ -4,8 +4,8 @@ const AboutPage: React.FC = () => {
   return (
     <div className="h-screen flex flex-col justify-center items-center bg-black text-white ">
       <div className="text-center py-16">
-        <h1 className="text-2xl md:text-4xl lg:text-6xl font-semibold mb-4 text-blue-100 hover:text-blue-400 transition duration-300">WE LIVE AND BREATHE</h1>
-        <p className="text-base md:text-lg lg:px-8 font-medium text-white hover:text-blue-900 transition duration-300">
+        <h1 className="text-2xl md:text-4xl lg:text-6xl font-semibold mb-4 text-blue-100 hover:text-blue-400 transition duration-700">WE LIVE AND BREATHE</h1>
+        <p className="text-base md:text-lg lg:px-8 font-medium text-white hover:text-blue-900 transition duration-700">
           Perfectus operates at the cutting edge of Web 3.0 innovation. With our team of 25+ experienced engineers, we develop bespoke Web 3.0 solutions for enterprises of all sizes, making use of the latest developments in the space to create products and assets that stand out.
         </p>
       </div>
