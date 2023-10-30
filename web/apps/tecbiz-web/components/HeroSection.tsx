@@ -2,8 +2,15 @@ import React from 'react';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="bg-black bg-cover bg-center py-32 sm:py-16 md:py-32 lg:py-64 xl:py-96 text-center text-white">
-      <div className="container mx-auto">
+    <section className="bg-black bg-cover bg-center min-h-screen flex justify-center items-center text-center text-white">
+      <style>
+        {`
+          .custom-hero-container {
+            padding-top: 70px; 
+          }
+        `}
+      </style>
+      <div className="container mx-auto custom-hero-container">
         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-4 text-blue-100 hover:text-blue-400 transition duration-700">
           Empowering Individuals & Achieve Excellence Through Professional Opportunities And AI Innovation.
         </h1>

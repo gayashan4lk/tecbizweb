@@ -2,7 +2,7 @@ import React from 'react';
 
 const FeaturesSection: React.FC = () => {
   return (
-    <section className="py-8 sm:py-16 md:py-24 lg:py-32 xl:py-40 bg-black text-center text-white">
+    <section className="py-12  bg-black text-center text-white">
       <div className="container mx-auto">
         <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-semibold mb-4 text-blue-100 hover:transform hover:scale-105 transition-transform duration-500">
           Tech Visionaries Unite

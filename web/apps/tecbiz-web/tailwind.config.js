@@ -12,9 +12,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      screens: {
-        'sm': '940px',
-    },
+      
   },
 },
   plugins: [],
