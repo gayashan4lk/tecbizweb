@@ -5,6 +5,7 @@ import {
   faLinkedin,
   faTwitter,
   faGithub,
+  faInstagram
 } from '@fortawesome/free-brands-svg-icons';
 import Image from 'next/image';
 
@@ -33,22 +34,18 @@ s      <div className="container mx-auto">
             <div className="flex justify-center">
 
             <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://www.facebook.com/thilan" className="text-blue-300 hover:text-blue-900">
+                <a href="https://www.facebook.com/thilan.buddhika.71?mibextid=LQQJ4d" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://www.linkedin.com/in/thilan" className="text-blue-300 hover:text-blue-900">
+                <a href="https://www.linkedin.com/in/thilan-buddhika-874286263/" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
               </div>
-              <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://twitter.com/thilan" className="text-blue-300 hover:text-blue-900">
-                  <FontAwesomeIcon icon={faTwitter} size="2x" />
-                </a>
-              </div>
+              
               <div className="bg-black p-2 rounded-full">
-                <a href="https://github.com/thilan" className="text-blue-300 hover:text-blue-900">
+                <a href="https://github.com/ThilanBuddhika98" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
               </div>
@@ -76,6 +73,12 @@ s      <div className="container mx-auto">
               <div className="bg-black p-2 rounded-full mr-4">
                 <a href="https://www.linkedin.com/in/thilan" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                </a>
+              </div>
+              <div className="bg-black p-2 rounded-full mr-4">
+                <a href="https://instagram.com/narada_kasun?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr
+" className="text-blue-300 hover:text-blue-900">
+                  <FontAwesomeIcon icon={faInstagram} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full mr-4">
@@ -120,7 +123,7 @@ s      <div className="container mx-auto">
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full">
-                <a href="https://github.com/thilan" className="text-blue-300 hover:text-blue-900">
+                <a href="https://github.com/MithunaDevinda" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
               </div>
@@ -140,23 +143,29 @@ s      <div className="container mx-auto">
             </p>
 
             <div className="flex justify-center">
-            <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://www.facebook.com/thilan" className="text-blue-300 hover:text-blue-900">
+           
+              <div className="bg-black p-2 rounded-full mr-4">
+                <a href="https://www.facebook.com/mithuna.devinda.1?mibextid=ZbWKwL" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://www.linkedin.com/in/thilan" className="text-blue-300 hover:text-blue-900">
+                <a href="https://www.linkedin.com/in/mithuna-devinda-a55bab284" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full mr-4">
-                <a href="https://twitter.com/thilan" className="text-blue-300 hover:text-blue-900">
+                <a href="https://instagram.com/dev_kodiiiii?igshid=OGQ5ZDc2ODk2ZA==" className="text-blue-300 hover:text-blue-900">
+                  <FontAwesomeIcon icon={faInstagram} size="2x" />
+                </a>
+              </div>
+              <div className="bg-black p-2 rounded-full mr-4">
+                <a href="https://twitter.com/Mithuna_Kodii" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
               </div>
               <div className="bg-black p-2 rounded-full">
-                <a href="https://github.com/thilan" className="text-blue-300 hover:text-blue-900">
+                <a href="https://github.com/MithunaDevinda" className="text-blue-300 hover:text-blue-900">
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
               </div>
