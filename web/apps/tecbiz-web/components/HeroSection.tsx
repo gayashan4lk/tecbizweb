@@ -5,7 +5,7 @@ import Lottie from 'lottie-react';
 const HeroSection: React.FC = () => {
   return (
     <section className="bg-black bg-cover bg-center min-h-screen flex flex-col items-center justify-center text-center text-white relative">
-      <div className="w-full h-screen flex items-center justify-center absolute top-7 left-0 z-0">
+      <div className="w-full h-screen  items-center justify-center absolute top-7 left-0 z-0">
         <Lottie
           animationData={Welcome}
           loop={true}
