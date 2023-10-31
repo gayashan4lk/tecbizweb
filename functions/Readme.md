@@ -1,6 +1,6 @@
 # Create Env
 ```shell
-python3.11 -m venv venv
+python3.12.0 -m venv venv
 ```
 
 # Activate env
@@ -24,5 +24,5 @@ And select setup emulators only
 
 # Serve
 ```shell
-firebase serve --only functions        
+firebase serve --only functions
 ```
