@@ -12,7 +12,7 @@ import {
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-black text-blue-100 py-12 text-md">
+    <footer className="bg-black text-blue-100 py-8 text-md top-0 left-0 right-0 z-50 p-4">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="text-center ">
           <h4 className="text-xl font-bold mt-4">TecBiz Solutions</h4>
