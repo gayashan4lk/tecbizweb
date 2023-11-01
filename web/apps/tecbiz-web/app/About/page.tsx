@@ -14,7 +14,7 @@ const AboutPage: React.FC = () => {
             animationData={Welcome}
             loop={true}
             autoplay={true}
-            style={{ maxWidth: '100%', height: '50%' }}
+            style={{ maxWidth: '100%', height: '75%%' }}
           />
         </div>
     <div className="h-screen flex flex-col justify-center items-center bg-black text-white ">
