@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import Welcome from './Products3.json';
+import Welcome from './p.json';
 import Lottie from 'lottie-react';
 
 const ProductsPage: React.FC = () => {
