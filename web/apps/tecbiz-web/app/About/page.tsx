@@ -1,7 +1,22 @@
+"use client"
+
 import React from 'react';
+import Welcome from './products2.json';
+import Lottie from 'lottie-react';
 
 const AboutPage: React.FC = () => {
   return (
+    <section className="bg-black bg-cover bg-center min-h-screen  items-center justify-center text-center text-white relative">
+
+      <div className="bg-black pt-80 text-white text-center h-full w-full">
+        <div className="w-full h-screen flex items-center justify-center absolute top-0 left-0 z-0">
+          <Lottie
+            animationData={Welcome}
+            loop={true}
+            autoplay={true}
+            style={{ maxWidth: '100%', height: '75%%' }}
+          />
+        </div>
     <div className="h-screen flex flex-col justify-center items-center bg-black text-white ">
       <div className="text-center py-16">
         <h1 className="text-2xl md:text-4xl lg:text-6xl font-semibold mb-4 text-blue-100 hover:text-blue-400 transition duration-700">WE LIVE AND BREATHE</h1>
@@ -32,9 +47,11 @@ const AboutPage: React.FC = () => {
         </div>
       </div>
 
-      <div className="mt-8">
+      <div className="mt-1">
       </div>
     </div>
+    </div>
+    </section>
   );
 };
 

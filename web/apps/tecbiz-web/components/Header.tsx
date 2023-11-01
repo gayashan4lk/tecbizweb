@@ -21,9 +21,12 @@ const Header: React.FC = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  
+
 
   return (
-    <header className="bg-black shadow-lg fixed top-0 left-0 right-0 z-50">
+<header className="bg-black  py-0.5 fixed top-0 left-0 right-0 z-50 p-4 ">
+
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center">
         <Link href="/">
@@ -49,19 +52,29 @@ const Header: React.FC = () => {
 
         <nav className="space-x-6 text-blue-200 text-lg hidden md:flex">
           <Link href="/">
-            <span className="hover:text-blue-900 transition duration-700 cursor-pointer">Home</span>
-          </Link>
-          <Link href="/Services">
-            <span className="hover:text-blue-900 transition duration-700 cursor-pointer">Services</span>
+          <span onClick={toggleMenu} className="hover:text-blue-900 transition duration-700 cursor-pointer">
+          Home
+            </span>
+            </Link>
+            <Link href="/Services">
+            <span onClick={toggleMenu} className="hover:text-blue-900 transition duration-700 cursor-pointer">
+              Services
+            </span>
           </Link>
           <Link href="/Products">
-            <span className="hover:text-blue-900 transition duration-700 cursor-pointer">Products</span>
+            <span onClick={toggleMenu} className="hover:text-blue-900 transition duration-700 cursor-pointer">
+              Products
+            </span>
           </Link>
           <Link href="/About">
-            <span className="hover:text-blue-900 transition duration-700 cursor-pointer">About</span>
+            <span onClick={toggleMenu} className="hover:text-blue-900 transition duration-700 cursor-pointer">
+              About
+            </span>
           </Link>
           <Link href="/Contact">
-            <span className="hover:text-blue-900 transition duration-700 cursor-pointer">Contact</span>
+            <span onClick={toggleMenu} className="hover:text-blue-900 transition duration-700 cursor-pointer">
+              Contact
+            </span>
           </Link>
         </nav>
         <div className="flex mt-4 md:mt-0 space-x-4">
