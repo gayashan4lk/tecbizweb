@@ -1,10 +1,13 @@
 import React from 'react';
 import TPComponent from '../convert/TPComponent';
+import HeaderComp from "../Components/HeaderComp";
+import FooterComp from "../Components/FooterComp";
 
 function App() {
   return (
     <div id="payment" className="payment-container">
       <div>
+        <HeaderComp/><br/><br/><br/>
         <TPComponent />
       </div>
       <div className="max-w-screen-xl mx-auto p-10 bg-black text-white flex justify-center"> 
@@ -74,6 +77,7 @@ function App() {
           <button className='transform scale-100 hover:scale-105 cursor-pointer transition duration-300 ease-in-out text-center bg-green-600 text-white text-lg px-8 py-4 rounded-xl hover:bg-green-400'>Download PDF</button>
         </p>
       </div>
+      <FooterComp/>
     </div>
   );
 }
