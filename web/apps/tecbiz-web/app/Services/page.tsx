@@ -1,21 +1,21 @@
 "use client"
 import React from 'react';
-import Welcome from './products.json';
+import Welcome from './Service.json';
 import Lottie from 'lottie-react';
 
 const ServicesPage = () => {
   return (
-    <div className="bg-black text-white min-h-screen flex items-center">
-      <div className="w-1/2  h-screen  top-10 left-0 z-0">
-        <Lottie
-          animationData={Welcome}
-          loop={true}
-          autoplay={true}
-          style={{ maxWidth: '100%', height: '100%' }}
-        />
-      </div>
+ <section className="bg-black  min-h-screen items-center justify-center text-center text-white relative p-8">
+    <div className="w-full h-screen top-10 left-0 z-0 flex items-center justify-center">
+     <Lottie
+       animationData={Welcome}
+       loop={true}
+       autoplay={true}
+       style={{ maxWidth: '100%', height: '75%' }}
+     />
+   </div>
     
-      <div className="w-1/2 bg-black text-white text-center py-24 pr-8">
+   <div className="h-full justify-center text-center">
   <div className="text-blue-300 hover:text-blue-100 transition duration-600 transform hover:scale-105 mb-8"> {/* Add mb-8 for bottom margin */}
     <h2 className="text-3xl md:text-3xl lg:text-5xl font-semibold mb-4 text-blue-800 hover-text-blue-200 transition duration-700">
       BESPOKE WEB 2.0 DEVELOPMENT
@@ -48,9 +48,9 @@ const ServicesPage = () => {
       Contact Us
     </a>
   </div>
+</div>
+</section>
 
-      </div>
-      </div>
   );
 };
 

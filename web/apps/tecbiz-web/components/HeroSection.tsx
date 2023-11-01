@@ -1,5 +1,5 @@
 import React from 'react';
-import Welcome from './Te.json';
+import Welcome from './World.json';
 import Lottie from 'lottie-react';
 
 const HeroSection: React.FC = () => {
