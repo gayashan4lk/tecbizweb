@@ -54,7 +54,33 @@ const Header: React.FC = () => {
         >
           Tecbiz Solutions
         </a>
-
+        <nav className="space-x-6 text-blue-200 text-lg hidden md:flex">
+          <Link href="/">
+          <span onClick={toggleMenu} className="hover:text-blue-900 transition duration-700 cursor-pointer">
+          Home
+            </span>
+            </Link>
+            <Link href="/Services">
+            <span onClick={toggleMenu} className="hover:text-blue-900 transition duration-700 cursor-pointer">
+              Services
+            </span>
+          </Link>
+          <Link href="/Products">
+            <span onClick={toggleMenu} className="hover:text-blue-900 transition duration-700 cursor-pointer">
+              Products
+            </span>
+          </Link>
+          <Link href="/About">
+            <span onClick={toggleMenu} className="hover:text-blue-900 transition duration-700 cursor-pointer">
+              About
+            </span>
+          </Link>
+          <Link href="/Contact">
+            <span onClick={toggleMenu} className="hover:text-blue-900 transition duration-700 cursor-pointer">
+              Contact
+            </span>
+          </Link>
+        </nav>
       
         <div className="flex mt-4 md:mt-0 space-x-4">
           <a href="https://twitter.com/tecbizSolutions" className="text-blue-200 hover:text-blue-900 transition duration-700">
