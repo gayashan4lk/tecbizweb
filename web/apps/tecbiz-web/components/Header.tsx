@@ -26,7 +26,7 @@ const Header: React.FC = () => {
   };
 
   return (
-<header className="bg-black  py-0.5 fixed top-0 left-0 right-0 z-50 p-4 ">
+<header className="bg-black  py-0.5 fixed top-0 left-0 right-0 z-50 p-4 ml-2 mr-2">
   
 
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
@@ -55,35 +55,7 @@ const Header: React.FC = () => {
           Tecbiz Solutions
         </a>
 
-        
-
-        <nav className={`space-x-6 text-blue-200 text-lg ${menuOpen ? 'block' : 'hidden'} md:flex`}>
-          <Link href="/" passHref>
-            <span onClick={closeMenu} className="hover:text-blue-900 transition duration-700 cursor-pointer">
-              Home
-            </span>
-          </Link>
-          <Link href="/Services" passHref>
-            <span onClick={closeMenu} className="hover:text-blue-900 transition duration-700 cursor-pointer">
-              Services
-            </span>
-          </Link>
-          <Link href="/Products" passHref>
-            <span onClick={closeMenu} className="hover:text-blue-900 transition duration-700 cursor-pointer">
-              Products
-            </span>
-          </Link>
-          <Link href="/About" passHref>
-            <span onClick={closeMenu} className="hover:text-blue-900 transition duration-700 cursor-pointer">
-              About
-            </span>
-          </Link>
-          <Link href="/Contact" passHref>
-            <span onClick={closeMenu} className="hover:text-blue-900 transition duration-700 cursor-pointer">
-              Contact
-            </span>
-          </Link>
-        </nav>
+      
         <div className="flex mt-4 md:mt-0 space-x-4">
           <a href="https://twitter.com/tecbizSolutions" className="text-blue-200 hover:text-blue-900 transition duration-700">
             <FontAwesomeIcon icon={faTwitter} className="w-6 h-6 md:w-8 md:h-8" />
@@ -111,6 +83,27 @@ const Header: React.FC = () => {
         </div>
         
       </div>
+      {menuOpen && (
+        <div className="md:hidden">
+        <nav className={`flex flex-col space-y-4  text-blue-200 text-lg mt-4 items-center ${menuOpen ? 'block' : 'hidden'} md:flex`}>
+            <Link href="/" passHref>
+              <span onClick={closeMenu} className="w-full rounded-lg hover:bg-blue-600 hover:text-black transition duration-700 cursor-pointer">Home</span>
+            </Link>
+            <Link href="/Services" passHref>
+              <span  onClick={closeMenu} className="w-full rounded-lg hover:bg-blue-600 hover:text-black transition duration-700 cursor-pointer">Services</span>
+            </Link>
+            <Link href="/Products" passHref>
+              <span  onClick={closeMenu} className="w-full rounded-lg hover:bg-blue-600 hover:text-black transition duration-700 cursor-pointer">Products</span>
+            </Link>
+            <Link href="/About" passHref>
+              <span  onClick={closeMenu}className="w-full rounded-lg hover:bg-blue-600 hover:text-black transition duration-700 cursor-pointer">About</span>
+            </Link>
+            <Link href="/Contact" passHref>
+              <span  onClick={closeMenu} className="w-full rounded-lg hover:bg-blue-600 hover:placeholder:text-black transition duration-700 cursor-pointer">Contact</span>
+            </Link>
+          </nav>
+        </div>
+      )}
     </header>
   );
 };
