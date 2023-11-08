@@ -7,6 +7,8 @@ import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const ContactPage: React.FC = () => {
   return (
+    <section className=" mt-20">
+
     <div className="bg-black text-white min-h-screen flex items-center">
       <div className="w-1/2 h-screen">
         <Lottie
@@ -16,7 +18,7 @@ const ContactPage: React.FC = () => {
           style={{ maxWidth: '100%', height: '100%' }}
         />
       </div>
-      <div className="w-1/2 p-8" style={{  marginTop: '2rem'}} >
+      <div className="w-1/2 p-8 " >
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-6 hover:text-blue-400 transition duration-700
  text-blue-900" style={{ letterSpacing: '10px' }}>
           GET IN TOUCH
@@ -79,6 +81,7 @@ const ContactPage: React.FC = () => {
       </div>
       
     </div>
+    </section>
   );
 };
 

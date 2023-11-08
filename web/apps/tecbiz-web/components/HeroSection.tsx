@@ -4,7 +4,7 @@ import Lottie from 'lottie-react';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="bg-black bg-cover bg-center min-h-screen flex flex-col items-center justify-center text-center text-white relative">
+    <section className="bg-black bg-cover bg-center min-h-screen flex flex-col items-center justify-center text-center text-white relative mt-10">
 
       <div className="w-full h-1/2 sm:h-3/4 md:h-3/4 lg:h-full xl:h-full flex items-center justify-center absolute left-0 z-0  sm:justify-center md:justify-center lg:justify-center xl:justify-center"> 
         <Lottie
