@@ -16,13 +16,13 @@ const HeroSection: React.FC = () => {
       </div>
 
       <div className="container mx-auto  relative z-10 sm:justify-center md:justify-center lg:justify-center xl:justify-center">
-        <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-4 ml-2 text-blue-100 hover:text-blue-400 transition duration-700">
+        <h1 className="text-xl sm:text-md md:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-4 ml-2 text-blue-100 hover:text-blue-400 transition duration-700">
           Empowering Individuals & Achieve Excellence Through Professional Opportunities And AI Innovation.
         </h1>
-        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold mb-4 ml-2 text-blue-300 hover:text-blue-400 transition duration-700">
+        <h2 className="text-xl sm:text-md md:text-3xl lg:text-4xl xl:text-5xl font-semibold mb-4 ml-2 text-blue-300 hover:text-blue-400 transition duration-700">
           Your Solution for Tech Needs
         </h2>
-        <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl px-4 sm:px-6 md:px-8 lg:px-10 mb-4 ml-2 text-white hover:text-blue-900 transition duration-700">
+        <p className="text-base sm:text-sm md:text-xl lg:text-2xl xl:text-3xl px-4 sm:px-6 md:px-8 lg:px-10 mb-4 ml-2 text-white hover:text-blue-900 transition duration-700">
           We provide innovative tech solutions for your business.
         </p>
         <a href="#" className="group cursor-pointer bg-blue-500 hover:bg-blue-800 text-black font-bold hover:text-gray-400 px-2 py-1 rounded-full text-sm hover:shadow-md transition duration-300">
