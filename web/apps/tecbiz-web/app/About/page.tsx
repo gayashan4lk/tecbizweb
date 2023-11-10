@@ -16,11 +16,11 @@ const AboutPage: React.FC = () => {
      />
    </div>
    <div className="h-full justify-center text-center">
-   <div className="text-blue-100 hover:text-white transition duration-700 transform hover:scale-90">
+   <div className="text-blue-100 hover:text-white transition duration-600 transform hover:scale-90">
 
-   <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-4 ml-2 text-blue-100 hover:text-blue-400 transition duration-700">
+   <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-4 ml-2 text-blue-100 hover:text-blue-400 transition duration-600">
       WE LIVE AND BREATHE</h1>
-      <h2 className="text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl font-semibold mb-4 ml-2 text-blue-300 hover:text-blue-400 transition duration-700">
+      <h2 className="text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl font-semibold mb-4 ml-2 text-blue-300 hover:text-blue-400 transition duration-600">
               Perfectus operates at the cutting edge of Web 3.0 innovation. With our team of 25+ experienced engineers, we develop bespoke Web 3.0 solutions for enterprises of all sizes, making use of the latest developments in the space to create products and assets that stand out.
             </h2>
           </div>

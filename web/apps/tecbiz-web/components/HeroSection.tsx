@@ -40,7 +40,7 @@ const HeroSection: React.FC = () => {
   return (
     
     <section className="bg-black bg-cover bg-center min-h-screen flex flex-col items-center  justify-center text-center text-white relative ">
-      <div className="flex absolute ">
+      <div className="absolute hidden md:flex ">
 
 <canvas
         ref={canvasRef} className=""
@@ -48,14 +48,14 @@ const HeroSection: React.FC = () => {
 
       />
       </div>
-      <div className="container mx-auto relative z-10 items-center justify-centersm:justify-center md:justify-center lg:justify-center xl:justify-center ">
-        <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold mb-4 ml-2 text-blue-100 hover:text-blue-400 transition duration-700">
+      <div className="container   relative items-center justify-centersm:justify-center md:justify-center lg:justify-center xl:justify-center ">
+        <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold mb-4 ml-2 text-blue-100 hover:text-blue-400 transition duration-600">
           Empowering Individuals & Achieve Excellence Through Professional Opportunities And AI Innovation.
         </h1>
-        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold mb-4 ml-2 text-blue-300 hover:text-blue-400 transition duration-700">
+        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold mb-4 ml-2 text-blue-300 hover:text-blue-400 transition duration-600">
           Your Solution for Tech Needs
         </h2>
-        <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl px-4 sm:px-6 md:px-8 lg:px-10 mb-4 ml-2 text-white hover:text-blue-900 transition duration-700">
+        <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl px-4 sm:px-6 md:px-8 lg:px-10 mb-4 ml-2 text-white hover:text-blue-900 transition duration-600">
           We provide innovative tech solutions for your business.
         </p>
         <a

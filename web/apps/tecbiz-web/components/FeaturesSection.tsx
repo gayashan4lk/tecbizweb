@@ -4,11 +4,11 @@ const FeaturesSection: React.FC = () => {
   return (
     <section className="  sm:justify-center md:justify-center lg:justify-center xl:justify-center ml-2  bg-black bg-hero-pattern bg-cover bg-center text-center">
       <div className="container mx-auto">
-      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-4 ml-2 text-blue-100 hover:text-blue-400 transition duration-700">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-4 ml-2 text-blue-100 hover:text-blue-400 transition duration-600">
           Tech Visionaries Unite
         </h1>
         <div className="text-center mb-8">
-        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl  mb-4 ml-2 text-white hover:text-blue-900 transition duration-700">
+        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl  mb-4 ml-2 text-white hover:text-blue-900 transition duration-600">
             Founded by tech visionaries, we unite experts, fostering innovation and collaboration, pushing tech boundaries to create groundbreaking solutions.
           </h2>
           <div className="relative inline-block">

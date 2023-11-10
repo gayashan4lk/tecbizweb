@@ -19,7 +19,7 @@ s      <div className="container mx-auto">
         <h2 className="text-3xl md:text-5xl text-blue-200 font-bold text-center mb-8">Dedicated Development Team</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
+        <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-600 transform hover:scale-90">
         <div className="flex justify-center mb-4">
                 <Image src={placeholderImage} alt="Dummy Person" className="w-32 h-32 rounded-full object-cover" />
               </div>
@@ -52,7 +52,7 @@ s      <div className="container mx-auto">
             </div>
           </div>
 
-          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
+          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-600 transform hover:scale-90">
           <h2 className="text-3xl md:text-3xl font-semibold text-center mb-8">
           <div className="flex justify-center mb-4">
                 <Image src={placeholderImage} alt="Dummy Person" className="w-32 h-32 rounded-full object-cover" />
@@ -95,7 +95,7 @@ s      <div className="container mx-auto">
             </div>
           </div>
 
-          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
+          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-600 transform hover:scale-90">
           <h2 className="text-3xl md:text-3xl font-semibold text-center mb-8">
           <div className="flex justify-center mb-4">
                 <Image src={placeholderImage} alt="Dummy Person" className="w-32 h-32 rounded-full object-cover" />
@@ -130,7 +130,7 @@ s      <div className="container mx-auto">
             </div>
           </div>
 
-          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
+          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-600 transform hover:scale-90">
           <h2 className="text-3xl md:text-3xl font-semibold text-center mb-8">
           <div className="flex justify-center mb-4">
                 <Image src={placeholderImage} alt="Dummy Person" className="w-32 h-32 rounded-full object-cover" />

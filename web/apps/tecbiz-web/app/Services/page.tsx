@@ -17,9 +17,9 @@ const ServicesPage = () => {
    </div>
     
    <div className="h-full justify-center text-center">
-   <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-blue-300 hover:text-gray-900  transition duration-700 transform hover:scale-90">
+   <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-blue-300 hover:text-gray-900  transition duration-600 transform hover:scale-90">
 
-    <h2 className="text-4xl md:text-3xl lg:text-5xl  font-bold mb-4 text-blue-900  transition duration-700">
+    <h2 className="text-4xl md:text-3xl lg:text-5xl  font-bold mb-4 text-blue-900  transition duration-600">
       BESPOKE WEB 2.0 DEVELOPMENT
     </h2>
     <p className="text-2xl font-semibold text-center mb-4">
@@ -29,8 +29,8 @@ const ServicesPage = () => {
       Contact Us
     </button>
   </div>
-  <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-blue-300 hover:text-gray-900  transition duration-700 transform hover:scale-90">
-  <h2 className="text-4xl md:text-3xl lg:text-5xl  font-bold mb-4 text-blue-900  transition duration-700">
+  <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-blue-300 hover:text-gray-900  transition duration-600 transform hover:scale-90">
+  <h2 className="text-4xl md:text-3xl lg:text-5xl  font-bold mb-4 text-blue-900  transition duration-600">
     AI CHATBOT DEVELOPMENT    </h2>
     <p className="text-2xl font-semibold text-center mb-4">
     We specialize in creating AI-powered chatbots for businesses. Our chatbots are designed to enhance customer interactions and streamline customer support. We leverage cutting-edge AI technologies to provide intelligent and efficient solutions for your business needs.
@@ -39,8 +39,8 @@ const ServicesPage = () => {
       Contact Us
     </button>
   </div>
-  <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-blue-300 hover:text-gray-900  transition duration-700 transform hover:scale-90">
-  <h2 className="text-4xl md:text-3xl lg:text-5xl  font-bold mb-4 text-blue-900  transition duration-700">
+  <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-blue-300 hover:text-gray-900  transition duration-600 transform hover:scale-90">
+  <h2 className="text-4xl md:text-3xl lg:text-5xl  font-bold mb-4 text-blue-900  transition duration-600">
     PYTHON-BASED APPLICATION DEVELOPMENT
    </h2>
    <p className="text-2xl font-semibold text-center mb-4">
