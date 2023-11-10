@@ -15,7 +15,7 @@ import placeholderImage from '../images/m.png';
 const Team: React.FC = () => {
   return (
     <section className="py-12 bg-black">
-s      <div className="container mx-auto">
+     <div className="container mx-auto">
         <h2 className="text-3xl md:text-5xl text-blue-200 font-bold text-center mb-8">Dedicated Development Team</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
