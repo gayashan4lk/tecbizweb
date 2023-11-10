@@ -26,7 +26,7 @@ const Header: React.FC = () => {
   };
 
   return (
-<header className="bg-black  py-0.5 fixed top-0 left-0 right-0 z-50 p-4 ml-2 mr-2">
+<header className="bg-black  py-0.5 fixed top-0 left-0 right-0 z-50 p-4 ">
   
 
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
@@ -54,6 +54,13 @@ const Header: React.FC = () => {
         >
           Tecbiz Solutions
         </a>
+
+        <div className="block md:hidden">
+          <button onClick={toggleMenu} className="text-blue-200 hover:text-blue-900 transition duration-700">
+            <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} className="w-6 h-6 md:w-8 md:h-8" />
+          </button>
+        </div>
+
         <nav className="space-x-6 text-blue-200 text-lg hidden md:flex">
           <Link href="/">
           <span onClick={toggleMenu} className="hover:text-blue-900 transition duration-700 cursor-pointer">
@@ -80,6 +87,7 @@ const Header: React.FC = () => {
               Contact
             </span>
           </Link>
+          
         </nav>
       
         <div className="flex mt-4 md:mt-0 space-x-4">
@@ -102,11 +110,7 @@ const Header: React.FC = () => {
             <FontAwesomeIcon icon={faWhatsapp} className="w-6 h-6 md:w-8 md:h-8" />
           </a>
         </div>
-        <div className="block md:hidden">
-          <button onClick={toggleMenu} className="text-blue-200 hover:text-blue-900 transition duration-700">
-            <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} className="w-6 h-6 md:w-8 md:h-8" />
-          </button>
-        </div>
+        
         
       </div>
       {menuOpen && (
@@ -128,6 +132,7 @@ const Header: React.FC = () => {
               <span  onClick={closeMenu} className="w-full rounded-lg hover:bg-blue-600 hover:placeholder:text-black transition duration-700 cursor-pointer">Contact</span>
             </Link>
           </nav>
+          
         </div>
       )}
     </header>
