@@ -16,7 +16,7 @@ const ContactPage: React.FC = () => {
           style={{ maxWidth: '100%', height: '100%' }}
         />
       </div>
-      <div className="w-1/2 p-8 xl:mt-10 lg:mt-10 mt-60 md:mt-40 sm:mt-60">
+      <div className="w-1/2 p-8 xl:mt-10 lg:mt-10 mt-60 md:mt-40 sm:mt-60 mr-8">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-6 hover:text-blue-400 transition duration-600
  text-blue-900" style={{ letterSpacing: '10px' }}>
           GET IN TOUCH

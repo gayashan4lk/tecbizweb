@@ -6,7 +6,7 @@ import Lottie from 'lottie-react';
 const AboutPage: React.FC = () => {
   return (
  <section className="bg-black  min-h-screen items-center justify-center text-center text-white relative p-8 ">
-    <div className="w-full h-screen  sm:h-3/4 md:h-3/4 lg:h-full xl:h-full  left-0 z-0 flex items-center justify-center sm:justify-center md:justify-center lg:justify-center xl:justify-center mt-10 sm:mb-1">
+    <div className="w-full h-screen  sm:h-3/4 md:h-3/4 lg:h-full xl:h-full  left-0 z-0 flex items-center justify-center sm:justify-center md:justify-center lg:justify-center xl:justify-center mt-0 sm:mb-1">
     
      <Lottie
        animationData={Welcome}
