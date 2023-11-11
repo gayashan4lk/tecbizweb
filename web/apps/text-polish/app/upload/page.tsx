@@ -1,6 +1,8 @@
 "use client"
 import React, { useState } from 'react';
 import TPComponent from '../convert/TPComponent';
+import HeaderComp from "../Components/HeaderComp";
+import FooterComp from "../Components/FooterComp";
 
 function App() {
   const [showInsertOptions, setShowInsertOptions] = useState(false);
@@ -25,14 +27,15 @@ function App() {
 
   return (
     <div>
+      <HeaderComp/><br/><br/><br/>
       <div>
         <TPComponent />
       </div>
-      <div className="bg-gray-800 h-35">
-        <button className="transform scale-100 hover:scale-105 cursor-pointer transition duration-300 ease-in-out bg-gray-800 text-white text-base mr-4" onClick={toggleInsertOptions}>
+      <div className="bg-black h-35">
+        <button className="transform scale-100 hover:scale-105 cursor-pointer transition duration-300 ease-in-out bg-black text-white text-base mr-4" onClick={toggleInsertOptions}>
           Insert
         </button>
-        <button className="transform scale-100 hover:scale-105 cursor-pointer transition duration-300 ease-in-out bg-gray-800 text-white text-base">Edit</button>
+        <button className="transform scale-100 hover:scale-105 cursor-pointer transition duration-300 ease-in-out bg-black text-white text-base">Edit</button>
       </div>
       <div className={`h-24 transition-transform ease-in-out duration-500 transform ${showInsertOptions ? 'scale-y-100' : 'scale-y-0'}`}>
         <div className="bg-black w-28">
@@ -68,6 +71,7 @@ function App() {
           </button>
         </div>
       </div>
+      <FooterComp/>
     </div>
   );
 }
