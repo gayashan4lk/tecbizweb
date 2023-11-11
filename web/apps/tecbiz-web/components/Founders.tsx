@@ -19,7 +19,7 @@ const Founders: React.FC = () => {
       <div className="container mx-auto">
         <h2 className="text-3xl md:text-5xl text-blue-200 font-bold text-center mb-8">TecBIZ FOUNDERS</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
+          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-600 transform hover:scale-90">
             <div className="flex flex-col items-center">
               <div className="mb-4">
                 <Image src={placeholderImage} alt="Dummy Person" className="w-32 h-32 rounded-full object-cover" />
@@ -58,7 +58,7 @@ const Founders: React.FC = () => {
             </div>
           </div>
 
-          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-700 transform hover:scale-90">
+          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-gray-400 hover:text-white transition duration-600 transform hover:scale-90">
             <div className="flex flex-col items-center">
               <div className="mb-4">
                 <Image src={placeholderImage2} alt="Dummy Person" className="w-32 h-32 rounded-full object-cover" />

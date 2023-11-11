@@ -17,6 +17,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@nx/next": "16.8.1",
+    "cobe": "^0.6.3",
     "feather-icons": "^4.29.1",
     "lottie-react": "^2.4.0",
     "next": "13.4.1",
@@ -24,6 +25,7 @@
     "react-dom": "18.2.0",
     "react-lottie": "^1.2.3",
     "tslib": "^2.3.0"
+
   },
   "devDependencies": {
     "@nx/cypress": "16.8.1",

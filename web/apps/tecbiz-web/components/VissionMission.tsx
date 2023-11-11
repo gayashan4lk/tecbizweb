@@ -9,7 +9,7 @@ const VissionMission: React.FC = () => {
     <section className="py-12 bg-black"> 
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-blue-200 hover:text-blue-900 transition duration-700 transform hover:scale-90">
+          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-blue-200 hover:text-blue-900 transition duration-600 transform hover:scale-90">
             <div className="flex justify-center mb-4">
               <Image src={placeholderImage} alt="Dummy Person" className="w-32 h-32 rounded-full object-cover" />
             </div>
@@ -19,7 +19,7 @@ const VissionMission: React.FC = () => {
             </h1>
           </div>
 
-          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-blue-200 hover:text-blue-900 transition duration-700 transform hover:scale-90">
+          <div className="p-6 bg-black rounded-lg shadow-md text-blue-100 hover:bg-blue-200 hover:text-blue-900 transition duration-600 transform hover:scale-90">
             <div className="flex justify-center mb-4">
               <Image src={placeholderImage2} alt="Dummy Person" className="w-32 h-32 rounded-full object-cover" />
             </div>

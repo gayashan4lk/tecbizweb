@@ -8,7 +8,7 @@ import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 const ContactPage: React.FC = () => {
   return (
     <div className="bg-black text-white min-h-screen flex items-center">
-      <div className="w-1/2 h-screen">
+      <div className="w-1/2 h-screen mt-10">
         <Lottie
           animationData={Welcome}
           loop={true}
@@ -16,8 +16,8 @@ const ContactPage: React.FC = () => {
           style={{ maxWidth: '100%', height: '100%' }}
         />
       </div>
-      <div className="w-1/2 p-8" style={{  marginTop: '2rem'}} >
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-6 hover:text-blue-400 transition duration-700
+      <div className="w-1/2 p-8 xl:mt-10 lg:mt-10 mt-60 md:mt-40 sm:mt-60">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-6 hover:text-blue-400 transition duration-600
  text-blue-900" style={{ letterSpacing: '10px' }}>
           GET IN TOUCH
         </h1>
